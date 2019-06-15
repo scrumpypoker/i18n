@@ -2,7 +2,7 @@
 Translations for Scrumpy Planning Poker
 
 ## File naming
-The name of the file must be <language>_<COUNTRY>.json, for example en_US.json for the USA version or en_UK.json for the English version.
+The name of the file must be ``<language>_<COUNTRY>.json``, for example en_US.json for the USA version or en_UK.json for the English version.
 
 ## File format
 The file format is JSON
