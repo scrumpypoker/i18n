@@ -524,7 +524,7 @@
   "game-config-project-boards-title": "Разрешаване/забраняване на Planning Poker връзката по проекти",
   "game-config-project-boards-description1": "Веднъж щом Planning Poker е забранен глобално, може да бъде разрешен на ниво бордове на проекти навигирайки към Jira Project",
   "game-config-project-boards-description2": "permissions страница и разрешавайки <strong>Allow Planning Poker</strong> настройката за този проект.",
-  "game-config-coming-soon": "Очаквайте скоро. Моля гласувайте за тази функционалност в нашата страница за <a href='https://scrumpy.poker/feature-requests' target='_blank'>нови функционалности</a>, така че ние да я имплементираме с по-висок приоритет."
+  "game-config-coming-soon": "Очаквайте скоро. Моля гласувайте за тази функционалност в нашата страница за <a href='https://scrumpy.poker/feature-requests' target='_blank'>нови функционалности</a>, така че ние да я имплементираме с по-висок приоритет.",
   "game-details-additional": "Допълнителна информация",
   "game-details-assignments": "Задачи",
   "game-details-reporter": "Създадел",
