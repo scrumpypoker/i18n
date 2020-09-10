@@ -7,8 +7,12 @@ The name of the file must be ``<language>_<COUNTRY>.json``, for example en_US.js
 ## File format
 The file format is JSON
 
-## File encdoing
+## File encoding
 The JSON files encoding must be UTF-8
+
+## Special instructions
+* Please do not translate texts in curly braces, e.g. {time}, {user}, {certainty}, those placeholders are programmatically replaced
+* If you don't want to translate a text, please keep it in English instead of deleting it. We don't have English fallback for missing identifiers.
 
 # Contributions
 Please feel free to create a translation at any time. We'll be glad to review and approve the translations as soon as possible. The accepted translations will be included in the next release.
