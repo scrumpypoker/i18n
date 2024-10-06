@@ -1,0 +1,1096 @@
+python version = 3.5.2 (default, Oct  7 2020, 17:19:02) 
+[GCC 5.4.0 20160609]
+note: line numbers are indexed for this check with a start at "0" - please add "1" for regular text editors
+doing file check...
+reading file: en_US.json
+reading file: bg_BG.json
+ERROR: key "game-register-name-hint" is missing from data file - insert the next line after key-line for "game-refinement-support-description"
+  "game-register-name-hint": "Your name here",
+ERROR: key "game-register-reset" is missing from data file - insert the next line after key-line for "game-register-name-hint"
+  "game-register-reset": "Reset",
+ERROR: key "game-register-rooms" is missing from data file - insert the next line after key-line for "game-register-reset"
+  "game-register-rooms": "Rooms",
+ERROR: key "game-register-signin" is missing from data file - insert the next line after key-line for "game-register-rooms"
+  "game-register-signin": "Sign-in",
+ERROR: key "game-register-signup" is missing from data file - insert the next line after key-line for "game-register-signin"
+  "game-register-signup": "Sign-up",
+ERROR: key "game-register-signup-description" is missing from data file - insert the next line after key-line for "game-register-signup"
+  "game-register-signup-description": "Sign-up for an account",
+ERROR: key "game-register-submit" is missing from data file - insert the next line after key-line for "game-register-signup-description"
+  "game-register-submit": "Sign-up",
+ERROR: key "game-register-title" is missing from data file - insert the next line after key-line for "game-register-submit"
+  "game-register-title": "Account management",
+reading file: nl_NL.json
+reading file: pt_BR.json
+ERROR: line[495] multiple items per body line
+ERROR: key "game-config-coming-soon" is in bad order according to the reference (14,16) - it should be after "game-comments"
+ERROR: key "game-help-learn-pwa" is missing from data file - insert the next line after key-line for "game-help-jira"
+  "game-help-learn-pwa": "Learn more about Progressive Web Applications on",
+ERROR: key "game-refinement-support-description" is in bad order according to the reference (193,195) - it should be after "game-refinement-session"
+ERROR: key "game-settings-changes-allowed-description" is in bad order according to the reference (240,245) - it should be after "game-settings-add-comment-title"
+ERROR: key "game-settings-integration-github" is in bad order according to the reference (277,279) - it should be after "game-settings-integration-confluence"
+ERROR: key "game-settings-jira-url-label" is in bad order according to the reference (303,306) - it should be after "game-settings-jira-url-description"
+ERROR: key "game-config-board-rooms" is missing from reference file - you should remove it!
+ERROR: key "game-refinement-slack-description" is missing from reference file - you should remove it!
+ERROR: key "game-settings-api-help" is missing from reference file - you should remove it!
+ERROR: key "game-settings-api-key-description" is missing from reference file - you should remove it!
+ERROR: key "game-settings-api-key-hint" is missing from reference file - you should remove it!
+ERROR: key "game-settings-api-key-title" is missing from reference file - you should remove it!
+ERROR: key "game-settings-integration-developer" is missing from reference file - you should remove it!
+ERROR: key "game-settings-jira-url-http" is missing from reference file - you should remove it!
+ERROR: key "game-settings-jira-url-http-label" is missing from reference file - you should remove it!
+reading file: by_BY_PR3.json
+ERROR: line[136] bad lead out for body line
+ERROR: line[213] bad lead out for body line
+ERROR: key "app-footer-sla" is missing from data file - insert the next line after key-line for "app-footer-privacy"
+  "app-footer-sla": "SLA",
+ERROR: key "app-footer-status" is missing from data file - insert the next line after key-line for "app-footer-sla"
+  "app-footer-status": "Status",
+ERROR: key "game-board-select-description" is missing from data file - insert the next line after key-line for "game-attachments-file"
+  "game-board-select-description": "There is more than one board that references this story, please select which one to use",
+ERROR: key "game-board-select-select" is missing from data file - insert the next line after key-line for "game-board-select-description"
+  "game-board-select-select": "Select",
+ERROR: key "game-board-switch-description" is missing from data file - insert the next line after key-line for "game-board-select-select"
+  "game-board-switch-description": "Each project or board is mapped to a room. A project with 2 boards makes 3 rooms. You can switch between the different rooms in this project from here.",
+ERROR: key "game-config-coming-soon" is in bad order according to the reference (9,11) - it should be after "game-comments"
+ERROR: key "game-config-micro-poker-disallowed-description" is missing from data file - insert the next line after key-line for "game-config-global-title"
+  "game-config-micro-poker-disallowed-description": "Hide the micro-poker section in the issue details view",
+ERROR: key "game-config-micro-poker-disallowed-label" is missing from data file - insert the next line after key-line for "game-config-micro-poker-disallowed-description"
+  "game-config-micro-poker-disallowed-label": "Disallow Micro Poker",
+ERROR: key "game-config-micro-poker-disallowed-title" is missing from data file - insert the next line after key-line for "game-config-micro-poker-disallowed-label"
+  "game-config-micro-poker-disallowed-title": "Micro poker section",
+ERROR: key "game-config-mini-poker-disallowed-description" is missing from data file - insert the next line after key-line for "game-config-micro-poker-disallowed-title"
+  "game-config-mini-poker-disallowed-description": "Hide the mini-poker section in the issue details view",
+ERROR: key "game-config-mini-poker-disallowed-label" is missing from data file - insert the next line after key-line for "game-config-mini-poker-disallowed-description"
+  "game-config-mini-poker-disallowed-label": "Disallow Mini Poker",
+ERROR: key "game-config-mini-poker-disallowed-title" is missing from data file - insert the next line after key-line for "game-config-mini-poker-disallowed-label"
+  "game-config-mini-poker-disallowed-title": "Mini poker section",
+ERROR: key "game-config-room-board" is missing from data file - insert the next line after key-line for "game-config-project-visibility"
+  "game-config-room-board": "Subordinate board room",
+ERROR: key "game-config-room-empty" is missing from data file - insert the next line after key-line for "game-config-room-board"
+  "game-config-room-empty": "This room has not yet been used and is empty. You can still though set its moderators in advance. No moderator means any Jira user can be moderator.",
+ERROR: key "game-config-room-project" is missing from data file - insert the next line after key-line for "game-config-room-empty"
+  "game-config-room-project": "Main project room",
+ERROR: key "game-config-rooms" is missing from data file - insert the next line after key-line for "game-config-room-project"
+  "game-config-rooms": "Rooms",
+ERROR: key "game-config-search-project" is missing from data file - insert the next line after key-line for "game-config-rooms"
+  "game-config-search-project": "Search project by name",
+ERROR: key "game-config-search-user" is missing from data file - insert the next line after key-line for "game-config-search-project"
+  "game-config-search-user": "Search user by name",
+ERROR: key "game-config-select-user" is missing from data file - insert the next line after key-line for "game-config-select-project"
+  "game-config-select-user": "Search a user by name",
+ERROR: key "game-config-tooltip-active-users" is missing from data file - insert the next line after key-line for "game-config-title"
+  "game-config-tooltip-active-users": "Active users",
+ERROR: key "game-config-tooltip-add-moderator" is missing from data file - insert the next line after key-line for "game-config-tooltip-active-users"
+  "game-config-tooltip-add-moderator": "Add moderator",
+ERROR: key "game-config-tooltip-room-status" is missing from data file - insert the next line after key-line for "game-config-tooltip-add-moderator"
+  "game-config-tooltip-room-status": "Current room status",
+ERROR: key "game-copy-jira-link" is missing from data file - insert the next line after key-line for "game-config-voting-rights"
+  "game-copy-jira-link": "Copy Jira link",
+ERROR: key "game-external-join-request-dialog-accept" is missing from data file - insert the next line after key-line for "game-email-link"
+  "game-external-join-request-dialog-accept": "Accept",
+ERROR: key "game-external-join-request-dialog-decline" is missing from data file - insert the next line after key-line for "game-external-join-request-dialog-accept"
+  "game-external-join-request-dialog-decline": "Decline",
+ERROR: key "game-external-join-request-dialog-description" is missing from data file - insert the next line after key-line for "game-external-join-request-dialog-decline"
+  "game-external-join-request-dialog-description": "An external user is requesting to join the voting session. If this is someone from the team, you can accept the request. If you don't think this is someone who is part of the team, please decline.<br> <strong>Note</strong>: external guests and voters can be completely disabled from the room settings.",
+ERROR: key "game-external-join-request-dialog-external" is missing from data file - insert the next line after key-line for "game-external-join-request-dialog-description"
+  "game-external-join-request-dialog-external": "External user",
+ERROR: key "game-external-join-request-dialog-title" is missing from data file - insert the next line after key-line for "game-external-join-request-dialog-external"
+  "game-external-join-request-dialog-title": "Request to join",
+ERROR: key "game-external-wait-request-dialog-description" is missing from data file - insert the next line after key-line for "game-external-join-request-dialog-title"
+  "game-external-wait-request-dialog-description": "Your join request has been submitted. Please wait the room moderator to accept your request. If the moderator is not in the room you have to wait until the moderator joins and approves your request.",
+ERROR: key "game-external-wait-request-dialog-title" is missing from data file - insert the next line after key-line for "game-external-wait-request-dialog-description"
+  "game-external-wait-request-dialog-title": "Wait for the moderator",
+ERROR: key "game-glance-not-scheduled" is missing from data file - insert the next line after key-line for "game-external-wait-request-dialog-title"
+  "game-glance-not-scheduled": "This story is not yet scheduled by the moderator for estimation. You need to be a room moderator to schedule this story.",
+ERROR: key "game-glance-not-selected" is missing from data file - insert the next line after key-line for "game-glance-not-scheduled"
+  "game-glance-not-selected": "The story is currently not selected for estimation by the moderator.",
+ERROR: key "game-glance-wrong-room" is missing from data file - insert the next line after key-line for "game-glance-not-selected"
+  "game-glance-wrong-room": "If this is not the right room, please switch to the correct one from the switch room button.",
+ERROR: key "game-history-estimated" is missing from data file - insert the next line after key-line for "game-help-pwa"
+  "game-history-estimated": "Estimated at <strong>{time}</strong>",
+ERROR: key "game-moderator-external-message" is missing from data file - insert the next line after key-line for "game-moderator-description"
+  "game-moderator-external-message": "Users external to Jira Cloud cannot be moderators, open Scrumpy Poker from inside a Jira board or project to become a moderator.",
+ERROR: key "game-pre-vote-comment-dialog-cancel" is missing from data file - insert the next line after key-line for "game-open-game"
+  "game-pre-vote-comment-dialog-cancel": "Cancel",
+ERROR: key "game-pre-vote-comment-dialog-description" is missing from data file - insert the next line after key-line for "game-pre-vote-comment-dialog-cancel"
+  "game-pre-vote-comment-dialog-description": "Please provide the reasoning behind the chosen vote",
+ERROR: key "game-pre-vote-comment-dialog-hint" is missing from data file - insert the next line after key-line for "game-pre-vote-comment-dialog-description"
+  "game-pre-vote-comment-dialog-hint": "A free text with the vote reasoning",
+ERROR: key "game-pre-vote-comment-dialog-label" is missing from data file - insert the next line after key-line for "game-pre-vote-comment-dialog-hint"
+  "game-pre-vote-comment-dialog-label": "Comment",
+ERROR: key "game-pre-vote-comment-dialog-ok" is missing from data file - insert the next line after key-line for "game-pre-vote-comment-dialog-label"
+  "game-pre-vote-comment-dialog-ok": "Comment",
+ERROR: key "game-pre-vote-comment-dialog-title" is missing from data file - insert the next line after key-line for "game-pre-vote-comment-dialog-ok"
+  "game-pre-vote-comment-dialog-title": "Comment on vote",
+ERROR: key "game-pre-voters-action" is missing from data file - insert the next line after key-line for "game-pre-vote-comment-dialog-title"
+  "game-pre-voters-action": "Collect votes and complete",
+ERROR: key "game-refinement-forum-description" is missing from data file - insert the next line after key-line for "game-refinement-feature-requests-title"
+  "game-refinement-forum-description": "Join our forums and community",
+ERROR: key "game-refinement-support-description" is missing from data file - insert the next line after key-line for "game-refinement-session"
+  "game-refinement-support-description": "File a support ticket",
+ERROR: key "game-register-name-hint" is missing from data file - insert the next line after key-line for "game-refinement-support-description"
+  "game-register-name-hint": "Your name here",
+ERROR: key "game-register-reset" is missing from data file - insert the next line after key-line for "game-register-name-hint"
+  "game-register-reset": "Reset",
+ERROR: key "game-register-rooms" is missing from data file - insert the next line after key-line for "game-register-reset"
+  "game-register-rooms": "Rooms",
+ERROR: key "game-register-signin" is missing from data file - insert the next line after key-line for "game-register-rooms"
+  "game-register-signin": "Sign-in",
+ERROR: key "game-register-signup" is missing from data file - insert the next line after key-line for "game-register-signin"
+  "game-register-signup": "Sign-up",
+ERROR: key "game-register-signup-description" is missing from data file - insert the next line after key-line for "game-register-signup"
+  "game-register-signup-description": "Sign-up for an account",
+ERROR: key "game-register-submit" is missing from data file - insert the next line after key-line for "game-register-signup-description"
+  "game-register-submit": "Sign-up",
+ERROR: key "game-register-title" is missing from data file - insert the next line after key-line for "game-register-submit"
+  "game-register-title": "Account management",
+ERROR: key "game-room-description" is in bad order according to the reference (152,154) - it should be after "game-register-title"
+ERROR: key "game-room-external-description" is missing from data file - insert the next line after key-line for "game-room-description"
+  "game-room-external-description": "<strong>Note</strong>: you're joining as external user. Please make sure the room moderator has allowed this and the moderator is there to approve your request.",
+ERROR: key "game-settings-changes-allowed-description" is in bad order according to the reference (189,194) - it should be after "game-settings-add-comment-title"
+ERROR: key "game-settings-connection-github" is missing from data file - insert the next line after key-line for "game-settings-confluence-page-label"
+  "game-settings-connection-github": "A connection to GitHub has been set up, you can disconnect from here",
+ERROR: key "game-settings-connection-gitlab" is missing from data file - insert the next line after key-line for "game-settings-connection-github"
+  "game-settings-connection-gitlab": "A connection to GitLab has been set up, you can disconnect from here",
+ERROR: key "game-settings-disallow-external-description" is missing from data file - insert the next line after key-line for "game-settings-disable-autostart-title"
+  "game-settings-disallow-external-description": "Do not allow external guests/voters to join through the QR code, invite links or copied room links. Note: if external sessions are allowed, the room moderator has to first accept the join request for any external user.",
+ERROR: key "game-settings-disallow-external-label" is missing from data file - insert the next line after key-line for "game-settings-disallow-external-description"
+  "game-settings-disallow-external-label": "No external voters allowed",
+ERROR: key "game-settings-disallow-external-title" is missing from data file - insert the next line after key-line for "game-settings-disallow-external-label"
+  "game-settings-disallow-external-title": "Disallow external voter",
+ERROR: key "game-settings-integration-github" is in bad order according to the reference (221,223) - it should be after "game-settings-integration-confluence"
+ERROR: key "game-settings-jira-context-only" is missing from data file - insert the next line after key-line for "game-settings-integrations"
+  "game-settings-jira-context-only": "Check this box in case you want to be able to see only tickets that are local to the room's board",
+ERROR: key "game-settings-jira-context-only-label" is missing from data file - insert the next line after key-line for "game-settings-jira-context-only"
+  "game-settings-jira-context-only-label": "Search stories only in the room's board",
+ERROR: key "game-settings-jira-context-only-title" is missing from data file - insert the next line after key-line for "game-settings-jira-context-only-label"
+  "game-settings-jira-context-only-title": "Board local search",
+ERROR: key "game-settings-jira-incoming-url-description" is missing from data file - insert the next line after key-line for "game-settings-jira-help"
+  "game-settings-jira-incoming-url-description": "Web hook for triggering an action inside Jira Automation. This feature is used to send events from Scrumpy Poker to your Jira instance when someone adds a story for estimation, removes it or estimates it. This way the action can trigger an automation that can update multiple fields, change the state, assignee, send e-mails and a lot more.",
+ERROR: key "game-settings-jira-incoming-url-help" is missing from data file - insert the next line after key-line for "game-settings-jira-incoming-url-description"
+  "game-settings-jira-incoming-url-help": "Learn more about this at",
+ERROR: key "game-settings-jira-incoming-url-label" is missing from data file - insert the next line after key-line for "game-settings-jira-incoming-url-help"
+  "game-settings-jira-incoming-url-label": "Incoming Webhook",
+ERROR: key "game-settings-jira-incoming-url-title" is missing from data file - insert the next line after key-line for "game-settings-jira-incoming-url-label"
+  "game-settings-jira-incoming-url-title": "Jira Automation Incoming Web Hook",
+ERROR: key "game-settings-jira-send-web-request-add-or-update-label" is missing from data file - insert the next line after key-line for "game-settings-jira-incoming-url-title"
+  "game-settings-jira-send-web-request-add-or-update-label": "Jira Automation add new or update existing story",
+ERROR: key "game-settings-jira-send-web-request-description" is missing from data file - insert the next line after key-line for "game-settings-jira-send-web-request-add-or-update-label"
+  "game-settings-jira-send-web-request-description": "Sends a web request from the Jira Automation framework when issue is created, assigned or any other condition supported by Jira. This feature is used to send events from your Jira instance to Scrumpy Poker. For example when a new issue is created, it can be automatically set for estimation. Or when the issue is updated (description changed, field changed, etc.) it can send event to Scrumpy Poker to add/remove this issue to a poker session or just refresh the description and fields.",
+ERROR: key "game-settings-jira-send-web-request-help" is missing from data file - insert the next line after key-line for "game-settings-jira-send-web-request-description"
+  "game-settings-jira-send-web-request-help": "You can learn more about Jira Send Web Request at",
+ERROR: key "game-settings-jira-send-web-request-label" is missing from data file - insert the next line after key-line for "game-settings-jira-send-web-request-help"
+  "game-settings-jira-send-web-request-label": "Web Request URL (POST)",
+ERROR: key "game-settings-jira-send-web-request-remove-label" is missing from data file - insert the next line after key-line for "game-settings-jira-send-web-request-label"
+  "game-settings-jira-send-web-request-remove-label": "Jira Automation remove existing story",
+ERROR: key "game-settings-jira-send-web-request-reset-label" is missing from data file - insert the next line after key-line for "game-settings-jira-send-web-request-remove-label"
+  "game-settings-jira-send-web-request-reset-label": "Reset URL",
+ERROR: key "game-settings-jira-send-web-request-title" is missing from data file - insert the next line after key-line for "game-settings-jira-send-web-request-reset-label"
+  "game-settings-jira-send-web-request-title": "Jira Automation Send Web Request",
+ERROR: key "game-settings-jira-url-label" is in bad order according to the reference (233,236) - it should be after "game-settings-jira-url-description"
+ERROR: key "game-settings-persist" is missing from data file - insert the next line after key-line for "game-settings-name-title"
+  "game-settings-persist": "Persistance",
+ERROR: key "game-settings-persist-description" is missing from data file - insert the next line after key-line for "game-settings-persist"
+  "game-settings-persist-description": "You can download the room settings and then restore it at any time or even transfer it to another room. The credentials for integrations are preserved.",
+ERROR: key "game-settings-persist-download" is missing from data file - insert the next line after key-line for "game-settings-persist-description"
+  "game-settings-persist-download": "Download",
+ERROR: key "game-settings-persist-drop-title" is missing from data file - insert the next line after key-line for "game-settings-persist-download"
+  "game-settings-persist-drop-title": "Drop settings file here",
+ERROR: key "game-settings-persist-title" is missing from data file - insert the next line after key-line for "game-settings-persist-drop-title"
+  "game-settings-persist-title": "Persist settings",
+ERROR: key "game-settings-reset-description" is missing from data file - insert the next line after key-line for "game-settings-plugins-label"
+  "game-settings-reset-description": "From here you can reset the room to it's initial state. This will remove all planned stories, existing refinements and restore the settings to their default values. This is useful in case something went wrong with the room settings or you need to clear all information that is stored in this room.",
+ERROR: key "game-settings-reset-label" is missing from data file - insert the next line after key-line for "game-settings-reset-description"
+  "game-settings-reset-label": "Reset room",
+ERROR: key "game-settings-reset-title" is missing from data file - insert the next line after key-line for "game-settings-reset-label"
+  "game-settings-reset-title": "Reset settings",
+ERROR: key "game-settings-room-description-description" is missing from data file - insert the next line after key-line for "game-settings-reset-title"
+  "game-settings-room-description-description": "This is a description of the room that is shown to the participants as a clarification on what stories will be refined, who will participate, etc.",
+ERROR: key "game-settings-room-description-hint" is missing from data file - insert the next line after key-line for "game-settings-room-description-description"
+  "game-settings-room-description-hint": "Team A's planning/refinement sessions",
+ERROR: key "game-settings-room-description-label" is missing from data file - insert the next line after key-line for "game-settings-room-description-hint"
+  "game-settings-room-description-label": "Room description, general text",
+ERROR: key "game-settings-room-description-title" is missing from data file - insert the next line after key-line for "game-settings-room-description-label"
+  "game-settings-room-description-title": "Room description",
+ERROR: key "game-settings-slack-post-added-description" is missing from data file - insert the next line after key-line for "game-settings-security-pin-unset-title"
+  "game-settings-slack-post-added-description": "Post a message on the slack channel when a story is added to the planning session.",
+ERROR: key "game-settings-slack-post-added-label" is missing from data file - insert the next line after key-line for "game-settings-slack-post-added-description"
+  "game-settings-slack-post-added-label": "Post when added",
+ERROR: key "game-settings-slack-post-added-title" is missing from data file - insert the next line after key-line for "game-settings-slack-post-added-label"
+  "game-settings-slack-post-added-title": "Post a message when a story is added",
+ERROR: key "game-settings-slack-post-removed-description" is missing from data file - insert the next line after key-line for "game-settings-slack-post-added-title"
+  "game-settings-slack-post-removed-description": "Post a message on the slack channel when a story is removed from the planning session.",
+ERROR: key "game-settings-slack-post-removed-label" is missing from data file - insert the next line after key-line for "game-settings-slack-post-removed-description"
+  "game-settings-slack-post-removed-label": "Post when removed",
+ERROR: key "game-settings-slack-post-removed-title" is missing from data file - insert the next line after key-line for "game-settings-slack-post-removed-label"
+  "game-settings-slack-post-removed-title": "Post a message when a story is removed",
+ERROR: key "game-settings-style-time-mapping-days-full" is missing from data file - insert the next line after key-line for "game-settings-style-time-mapping-days"
+  "game-settings-style-time-mapping-days-full": "days",
+ERROR: key "game-settings-style-time-mapping-hours-full" is missing from data file - insert the next line after key-line for "game-settings-style-time-mapping-hours"
+  "game-settings-style-time-mapping-hours-full": "hours",
+ERROR: key "game-settings-style-time-mapping-months-full" is missing from data file - insert the next line after key-line for "game-settings-style-time-mapping-months"
+  "game-settings-style-time-mapping-months-full": "months",
+ERROR: key "game-settings-style-time-mapping-weeks-full" is missing from data file - insert the next line after key-line for "game-settings-style-time-mapping-weeks"
+  "game-settings-style-time-mapping-weeks-full": "weeks",
+ERROR: key "game-settings-style-tshirt-estimate-field-description" is missing from data file - insert the next line after key-line for "game-settings-style-title"
+  "game-settings-style-tshirt-estimate-field-description": "A custom estimate field for the T-Shirt sizes in Jira that holds text values like L, XXL. When estimating with T-Shirt sizes insted of updating the story points, this field is set to the T-Shirt size of the story.",
+ERROR: key "game-settings-style-tshirt-estimate-field-label" is missing from data file - insert the next line after key-line for "game-settings-style-tshirt-estimate-field-description"
+  "game-settings-style-tshirt-estimate-field-label": "T-Shirt estimate field name",
+ERROR: key "game-settings-style-tshirt-estimate-field-title" is missing from data file - insert the next line after key-line for "game-settings-style-tshirt-estimate-field-label"
+  "game-settings-style-tshirt-estimate-field-title": "Jira T-Shirt estimate field",
+ERROR: key "game-settings-voting-hide-average-description" is missing from data file - insert the next line after key-line for "game-settings-voting-guest-title"
+  "game-settings-voting-hide-average-description": "Hide the average vote and the ability to override it until the team is in discussion about the results",
+ERROR: key "game-settings-voting-hide-average-title" is missing from data file - insert the next line after key-line for "game-settings-voting-hide-average-description"
+  "game-settings-voting-hide-average-title": "Hide the average vote",
+ERROR: key "game-settings-voting-pre-vote-comment-description" is missing from data file - insert the next line after key-line for "game-settings-voting-no-sounds-title"
+  "game-settings-voting-pre-vote-comment-description": "Require adding a comment when voting asynchronously as the comment will help the moderator understand the reasoning behind the chosen vote",
+ERROR: key "game-settings-voting-pre-vote-comment-title" is missing from data file - insert the next line after key-line for "game-settings-voting-pre-vote-comment-description"
+  "game-settings-voting-pre-vote-comment-title": "Require a comment on asynchronous votes",
+ERROR: key "game-settings-voting-show-estimate-description" is missing from data file - insert the next line after key-line for "game-settings-voting-room-title"
+  "game-settings-voting-show-estimate-description": "When estimated, keep the ticket in the list of stories and show the estimate inside. This way a ticket can be re-estimated multiple times easily. Note: this will expose any existing estimate of the ticket prior to estimation",
+ERROR: key "game-settings-voting-show-estimate-title" is missing from data file - insert the next line after key-line for "game-settings-voting-show-estimate-description"
+  "game-settings-voting-show-estimate-title": "Show estimate and keep ticket",
+ERROR: key "game-settings-voting-story-editing-description" is missing from data file - insert the next line after key-line for "game-settings-voting-show-estimate-title"
+  "game-settings-voting-story-editing-description": "Allow the moderator to edit the story summary and description before and during the refinement session",
+ERROR: key "game-settings-voting-story-editing-title" is missing from data file - insert the next line after key-line for "game-settings-voting-story-editing-description"
+  "game-settings-voting-story-editing-title": "Allow summary and description editing",
+ERROR: key "game-settings-voting-volume-sounds-description" is missing from data file - insert the next line after key-line for "game-settings-voting-time-title"
+  "game-settings-voting-volume-sounds-description": "Increase or decrease the volume of the audio",
+ERROR: key "game-settings-voting-volume-sounds-title" is missing from data file - insert the next line after key-line for "game-settings-voting-volume-sounds-description"
+  "game-settings-voting-volume-sounds-title": "Sounds volume",
+ERROR: key "game-story-arrange-order-ascending" is missing from data file - insert the next line after key-line for "game-story-add-all"
+  "game-story-arrange-order-ascending": "Ascending",
+ERROR: key "game-story-arrange-order-descending" is missing from data file - insert the next line after key-line for "game-story-arrange-order-ascending"
+  "game-story-arrange-order-descending": "Descending",
+ERROR: key "game-story-arrange-order-label" is missing from data file - insert the next line after key-line for "game-story-arrange-order-descending"
+  "game-story-arrange-order-label": "Order",
+ERROR: key "game-story-arrange-sort-label" is missing from data file - insert the next line after key-line for "game-story-arrange-order-label"
+  "game-story-arrange-sort-label": "Sort by",
+ERROR: key "game-story-arrange-sorting-estimate" is missing from data file - insert the next line after key-line for "game-story-arrange-sort-label"
+  "game-story-arrange-sorting-estimate": "Estimate",
+ERROR: key "game-story-arrange-sorting-title" is missing from data file - insert the next line after key-line for "game-story-arrange-sorting-estimate"
+  "game-story-arrange-sorting-title": "Title",
+ERROR: key "game-story-clear-all" is missing from data file - insert the next line after key-line for "game-story-chat-unfold"
+  "game-story-clear-all": "Clear search list",
+ERROR: key "game-story-context-only-status-all" is missing from data file - insert the next line after key-line for "game-story-collaboration-view"
+  "game-story-context-only-status-all": "Searching in all projects. Change search context in Integrations/Jira settings.",
+ERROR: key "game-story-context-only-status-board" is missing from data file - insert the next line after key-line for "game-story-context-only-status-all"
+  "game-story-context-only-status-board": "Searching in the current board only. Change search context in Integrations/Jira settings.",
+ERROR: key "game-story-no-data-description" is missing from data file - insert the next line after key-line for "game-story-no-data"
+  "game-story-no-data-description": "Start typing ticket ID to fill in your list of stories",
+ERROR: key "game-summary-hide-average" is missing from data file - insert the next line after key-line for "game-summary-generate"
+  "game-summary-hide-average": "Hide the average value",
+ERROR: key "game-summary-show-average" is missing from data file - insert the next line after key-line for "game-summary-session-voting-time"
+  "game-summary-show-average": "Show the average value",
+ERROR: key "game-summary-show-average-first" is missing from data file - insert the next line after key-line for "game-summary-show-average"
+  "game-summary-show-average-first": "Please show the average vote first to be able to complete the voting",
+ERROR: key "game-tooltip-add-bottom" is missing from data file - insert the next line after key-line for "game-time-remaining"
+  "game-tooltip-add-bottom": "Add to bottom of refinement",
+ERROR: key "game-tooltip-add-top" is missing from data file - insert the next line after key-line for "game-tooltip-add-to-list"
+  "game-tooltip-add-top": "Add to top of refinement",
+ERROR: key "game-tooltip-board" is missing from data file - insert the next line after key-line for "game-tooltip-add-top"
+  "game-tooltip-board": "Board <strong>{board}</strong>",
+ERROR: key "game-tooltip-estimate-now" is missing from data file - insert the next line after key-line for "game-tooltip-choose-preset"
+  "game-tooltip-estimate-now": "Estimate now",
+ERROR: key "game-tooltip-game-complete-all" is missing from data file - insert the next line after key-line for "game-tooltip-game-complete"
+  "game-tooltip-game-complete-all": "Save in history, update the estimate fields and switch to next story",
+ERROR: key "game-tooltip-history-of-estimates" is missing from data file - insert the next line after key-line for "game-tooltip-game-voting-notification"
+  "game-tooltip-history-of-estimates": "Estimation history",
+ERROR: key "game-tooltip-not-scheduled-for-estimation" is missing from data file - insert the next line after key-line for "game-tooltip-no-storypoints"
+  "game-tooltip-not-scheduled-for-estimation": "Not scheduled for estimation",
+ERROR: key "game-tooltip-project" is missing from data file - insert the next line after key-line for "game-tooltip-options-more"
+  "game-tooltip-project": "Project <strong>{project}</strong>",
+ERROR: key "game-tooltip-qr-generate" is missing from data file - insert the next line after key-line for "game-tooltip-qr"
+  "game-tooltip-qr-generate": "Generate QR code for mobile devices",
+ERROR: key "game-tooltip-qr-hiding-in" is missing from data file - insert the next line after key-line for "game-tooltip-qr-generate"
+  "game-tooltip-qr-hiding-in": "Hiding in {seconds}s",
+ERROR: key "game-tooltip-reset-stories-order" is missing from data file - insert the next line after key-line for "game-tooltip-refinement-more"
+  "game-tooltip-reset-stories-order": "Reset stories order",
+ERROR: key "game-tooltip-save-stories-order" is missing from data file - insert the next line after key-line for "game-tooltip-result-lower"
+  "game-tooltip-save-stories-order": "Apply this order for all participants",
+ERROR: key "game-tooltip-schedule" is missing from data file - insert the next line after key-line for "game-tooltip-save-stories-order"
+  "game-tooltip-schedule": "Schedule now",
+ERROR: key "game-tooltip-schedule-and-estimate" is missing from data file - insert the next line after key-line for "game-tooltip-schedule"
+  "game-tooltip-schedule-and-estimate": "Schedule now and estimate",
+ERROR: key "game-tooltip-scheduled-for-estimation" is missing from data file - insert the next line after key-line for "game-tooltip-schedule-and-estimate"
+  "game-tooltip-scheduled-for-estimation": "Scheduled for estimation",
+ERROR: key "game-tooltip-scheduled-stories" is missing from data file - insert the next line after key-line for "game-tooltip-scheduled-for-estimation"
+  "game-tooltip-scheduled-stories": "Stories scheduled for estimation",
+ERROR: key "game-tooltip-toggle-preset" is missing from data file - insert the next line after key-line for "game-tooltip-toggle-participants"
+  "game-tooltip-toggle-preset": "Toggle preset",
+ERROR: key "game-translate" is missing from data file - insert the next line after key-line for "game-tooltip-voting-timer"
+  "game-translate": "Translate...",
+ERROR: key "game-translate-clear-source" is missing from data file - insert the next line after key-line for "game-translate"
+  "game-translate-clear-source": "Clear translation",
+ERROR: key "game-translate-close" is missing from data file - insert the next line after key-line for "game-translate-clear-source"
+  "game-translate-close": "Close",
+ERROR: key "game-translate-content-source" is missing from data file - insert the next line after key-line for "game-translate-close"
+  "game-translate-content-source": "New translation",
+ERROR: key "game-translate-content-source-link" is missing from data file - insert the next line after key-line for "game-translate-content-source"
+  "game-translate-content-source-link": "Source <strong>{translate}</strong> from pastebin",
+ERROR: key "game-translate-description" is missing from data file - insert the next line after key-line for "game-translate-content-source-link"
+  "game-translate-description": "<strong>For testing purposes only!</strong> You can specify the ID of a <a href='https://pastebin.com' target='_blank'>PASTEBIN</a> content. For example if your raw pastebin URL is <code>https://pastebin.com/raw/V1S2ae8D</code>, the ID is <code>V1S2ae8D</code>. When specified, the last menu entry in the language menu turns into a new language that can be selected. This is useful when you'd like to test the translation file that you're currently working on.",
+ERROR: key "game-translate-label" is missing from data file - insert the next line after key-line for "game-translate-description"
+  "game-translate-label": "Specify pastebin ID",
+ERROR: key "game-translate-select-source" is missing from data file - insert the next line after key-line for "game-translate-label"
+  "game-translate-select-source": "Select new translation",
+ERROR: key "game-translate-title" is missing from data file - insert the next line after key-line for "game-translate-select-source"
+  "game-translate-title": "Specify translation ID",
+ERROR: key "game-upload-invalid-type" is missing from data file - insert the next line after key-line for "game-upload-example"
+  "game-upload-invalid-type": "Settings file must be of .scrumpy extension",
+ERROR: key "game-upload-success" is missing from data file - insert the next line after key-line for "game-upload-invalid-type"
+  "game-upload-success": "Settings have been successfully imported",
+ERROR: key "game-upload-too-big" is missing from data file - insert the next line after key-line for "game-upload-title"
+  "game-upload-too-big": "Uploaded file is too big",
+ERROR: key "game-upload-too-many" is missing from data file - insert the next line after key-line for "game-upload-too-big"
+  "game-upload-too-many": "Too many files uploaded",
+ERROR: key "game-voters-kick" is missing from data file - insert the next line after key-line for "game-voters-jira-no-participants"
+  "game-voters-kick": "Kick out",
+ERROR: key "game-voters-make-guest" is missing from data file - insert the next line after key-line for "game-voters-kick"
+  "game-voters-make-guest": "Make guest",
+ERROR: key "game-voters-make-moderator" is missing from data file - insert the next line after key-line for "game-voters-make-guest"
+  "game-voters-make-moderator": "Make moderator",
+ERROR: key "game-voters-make-regular" is missing from data file - insert the next line after key-line for "game-voters-make-moderator"
+  "game-voters-make-regular": "Allow voting",
+ERROR: key "game-voting-freescale-value" is missing from data file - insert the next line after key-line for "game-voting-freescale-title"
+  "game-voting-freescale-value": "Value",
+ERROR: key "game-voting-selected-room" is missing from data file - insert the next line after key-line for "game-voting-freescale-weeks"
+  "game-voting-selected-room": "Selected room",
+ERROR: key "game-voting-switch-room" is missing from data file - insert the next line after key-line for "game-voting-selected-room"
+  "game-voting-switch-room": "Switch room",
+ERROR: key "game-config-board-rooms" is missing from reference file - you should remove it!
+ERROR: key "game-refinement-slack-description" is missing from reference file - you should remove it!
+ERROR: key "game-settings-api-help" is missing from reference file - you should remove it!
+ERROR: key "game-settings-api-key-description" is missing from reference file - you should remove it!
+ERROR: key "game-settings-api-key-hint" is missing from reference file - you should remove it!
+ERROR: key "game-settings-api-key-title" is missing from reference file - you should remove it!
+ERROR: key "game-settings-integration-developer" is missing from reference file - you should remove it!
+ERROR: key "game-settings-jira-url-http" is missing from reference file - you should remove it!
+ERROR: key "game-settings-jira-url-http-label" is missing from reference file - you should remove it!
+reading file: de_DE_PR5.json
+ERROR: key "app-footer-sla" is missing from data file - insert the next line after key-line for "app-footer-privacy"
+  "app-footer-sla": "SLA",
+ERROR: key "app-footer-status" is missing from data file - insert the next line after key-line for "app-footer-sla"
+  "app-footer-status": "Status",
+ERROR: key "game-board-select-description" is missing from data file - insert the next line after key-line for "game-attachments-file"
+  "game-board-select-description": "There is more than one board that references this story, please select which one to use",
+ERROR: key "game-board-select-select" is missing from data file - insert the next line after key-line for "game-board-select-description"
+  "game-board-select-select": "Select",
+ERROR: key "game-board-switch-description" is missing from data file - insert the next line after key-line for "game-board-select-select"
+  "game-board-switch-description": "Each project or board is mapped to a room. A project with 2 boards makes 3 rooms. You can switch between the different rooms in this project from here.",
+ERROR: key "game-config-coming-soon" is in bad order according to the reference (9,11) - it should be after "game-comments"
+ERROR: key "game-config-micro-poker-disallowed-description" is missing from data file - insert the next line after key-line for "game-config-global-title"
+  "game-config-micro-poker-disallowed-description": "Hide the micro-poker section in the issue details view",
+ERROR: key "game-config-micro-poker-disallowed-label" is missing from data file - insert the next line after key-line for "game-config-micro-poker-disallowed-description"
+  "game-config-micro-poker-disallowed-label": "Disallow Micro Poker",
+ERROR: key "game-config-micro-poker-disallowed-title" is missing from data file - insert the next line after key-line for "game-config-micro-poker-disallowed-label"
+  "game-config-micro-poker-disallowed-title": "Micro poker section",
+ERROR: key "game-config-mini-poker-disallowed-description" is missing from data file - insert the next line after key-line for "game-config-micro-poker-disallowed-title"
+  "game-config-mini-poker-disallowed-description": "Hide the mini-poker section in the issue details view",
+ERROR: key "game-config-mini-poker-disallowed-label" is missing from data file - insert the next line after key-line for "game-config-mini-poker-disallowed-description"
+  "game-config-mini-poker-disallowed-label": "Disallow Mini Poker",
+ERROR: key "game-config-mini-poker-disallowed-title" is missing from data file - insert the next line after key-line for "game-config-mini-poker-disallowed-label"
+  "game-config-mini-poker-disallowed-title": "Mini poker section",
+ERROR: key "game-config-room-board" is missing from data file - insert the next line after key-line for "game-config-project-visibility"
+  "game-config-room-board": "Subordinate board room",
+ERROR: key "game-config-room-empty" is missing from data file - insert the next line after key-line for "game-config-room-board"
+  "game-config-room-empty": "This room has not yet been used and is empty. You can still though set its moderators in advance. No moderator means any Jira user can be moderator.",
+ERROR: key "game-config-room-project" is missing from data file - insert the next line after key-line for "game-config-room-empty"
+  "game-config-room-project": "Main project room",
+ERROR: key "game-config-rooms" is missing from data file - insert the next line after key-line for "game-config-room-project"
+  "game-config-rooms": "Rooms",
+ERROR: key "game-config-search-project" is missing from data file - insert the next line after key-line for "game-config-rooms"
+  "game-config-search-project": "Search project by name",
+ERROR: key "game-config-search-user" is missing from data file - insert the next line after key-line for "game-config-search-project"
+  "game-config-search-user": "Search user by name",
+ERROR: key "game-config-select-user" is missing from data file - insert the next line after key-line for "game-config-select-project"
+  "game-config-select-user": "Search a user by name",
+ERROR: key "game-config-tooltip-active-users" is missing from data file - insert the next line after key-line for "game-config-title"
+  "game-config-tooltip-active-users": "Active users",
+ERROR: key "game-config-tooltip-add-moderator" is missing from data file - insert the next line after key-line for "game-config-tooltip-active-users"
+  "game-config-tooltip-add-moderator": "Add moderator",
+ERROR: key "game-config-tooltip-room-status" is missing from data file - insert the next line after key-line for "game-config-tooltip-add-moderator"
+  "game-config-tooltip-room-status": "Current room status",
+ERROR: key "game-copy-jira-link" is missing from data file - insert the next line after key-line for "game-config-voting-rights"
+  "game-copy-jira-link": "Copy Jira link",
+ERROR: key "game-external-join-request-dialog-accept" is missing from data file - insert the next line after key-line for "game-email-link"
+  "game-external-join-request-dialog-accept": "Accept",
+ERROR: key "game-external-join-request-dialog-decline" is missing from data file - insert the next line after key-line for "game-external-join-request-dialog-accept"
+  "game-external-join-request-dialog-decline": "Decline",
+ERROR: key "game-external-join-request-dialog-description" is missing from data file - insert the next line after key-line for "game-external-join-request-dialog-decline"
+  "game-external-join-request-dialog-description": "An external user is requesting to join the voting session. If this is someone from the team, you can accept the request. If you don't think this is someone who is part of the team, please decline.<br> <strong>Note</strong>: external guests and voters can be completely disabled from the room settings.",
+ERROR: key "game-external-join-request-dialog-external" is missing from data file - insert the next line after key-line for "game-external-join-request-dialog-description"
+  "game-external-join-request-dialog-external": "External user",
+ERROR: key "game-external-join-request-dialog-title" is missing from data file - insert the next line after key-line for "game-external-join-request-dialog-external"
+  "game-external-join-request-dialog-title": "Request to join",
+ERROR: key "game-external-wait-request-dialog-description" is missing from data file - insert the next line after key-line for "game-external-join-request-dialog-title"
+  "game-external-wait-request-dialog-description": "Your join request has been submitted. Please wait the room moderator to accept your request. If the moderator is not in the room you have to wait until the moderator joins and approves your request.",
+ERROR: key "game-external-wait-request-dialog-title" is missing from data file - insert the next line after key-line for "game-external-wait-request-dialog-description"
+  "game-external-wait-request-dialog-title": "Wait for the moderator",
+ERROR: key "game-glance-not-scheduled" is missing from data file - insert the next line after key-line for "game-external-wait-request-dialog-title"
+  "game-glance-not-scheduled": "This story is not yet scheduled by the moderator for estimation. You need to be a room moderator to schedule this story.",
+ERROR: key "game-glance-not-selected" is missing from data file - insert the next line after key-line for "game-glance-not-scheduled"
+  "game-glance-not-selected": "The story is currently not selected for estimation by the moderator.",
+ERROR: key "game-glance-wrong-room" is missing from data file - insert the next line after key-line for "game-glance-not-selected"
+  "game-glance-wrong-room": "If this is not the right room, please switch to the correct one from the switch room button.",
+ERROR: key "game-history-estimated" is missing from data file - insert the next line after key-line for "game-help-pwa"
+  "game-history-estimated": "Estimated at <strong>{time}</strong>",
+ERROR: key "game-moderator-external-message" is missing from data file - insert the next line after key-line for "game-moderator-description"
+  "game-moderator-external-message": "Users external to Jira Cloud cannot be moderators, open Scrumpy Poker from inside a Jira board or project to become a moderator.",
+ERROR: key "game-pre-vote-comment-dialog-cancel" is missing from data file - insert the next line after key-line for "game-open-game"
+  "game-pre-vote-comment-dialog-cancel": "Cancel",
+ERROR: key "game-pre-vote-comment-dialog-description" is missing from data file - insert the next line after key-line for "game-pre-vote-comment-dialog-cancel"
+  "game-pre-vote-comment-dialog-description": "Please provide the reasoning behind the chosen vote",
+ERROR: key "game-pre-vote-comment-dialog-hint" is missing from data file - insert the next line after key-line for "game-pre-vote-comment-dialog-description"
+  "game-pre-vote-comment-dialog-hint": "A free text with the vote reasoning",
+ERROR: key "game-pre-vote-comment-dialog-label" is missing from data file - insert the next line after key-line for "game-pre-vote-comment-dialog-hint"
+  "game-pre-vote-comment-dialog-label": "Comment",
+ERROR: key "game-pre-vote-comment-dialog-ok" is missing from data file - insert the next line after key-line for "game-pre-vote-comment-dialog-label"
+  "game-pre-vote-comment-dialog-ok": "Comment",
+ERROR: key "game-pre-vote-comment-dialog-title" is missing from data file - insert the next line after key-line for "game-pre-vote-comment-dialog-ok"
+  "game-pre-vote-comment-dialog-title": "Comment on vote",
+ERROR: key "game-pre-voters-action" is missing from data file - insert the next line after key-line for "game-pre-vote-comment-dialog-title"
+  "game-pre-voters-action": "Collect votes and complete",
+ERROR: key "game-refinement-forum-description" is missing from data file - insert the next line after key-line for "game-refinement-feature-requests-title"
+  "game-refinement-forum-description": "Join our forums and community",
+ERROR: key "game-refinement-support-description" is missing from data file - insert the next line after key-line for "game-refinement-session"
+  "game-refinement-support-description": "File a support ticket",
+ERROR: key "game-register-name-hint" is missing from data file - insert the next line after key-line for "game-refinement-support-description"
+  "game-register-name-hint": "Your name here",
+ERROR: key "game-register-reset" is missing from data file - insert the next line after key-line for "game-register-name-hint"
+  "game-register-reset": "Reset",
+ERROR: key "game-register-rooms" is missing from data file - insert the next line after key-line for "game-register-reset"
+  "game-register-rooms": "Rooms",
+ERROR: key "game-register-signin" is missing from data file - insert the next line after key-line for "game-register-rooms"
+  "game-register-signin": "Sign-in",
+ERROR: key "game-register-signup" is missing from data file - insert the next line after key-line for "game-register-signin"
+  "game-register-signup": "Sign-up",
+ERROR: key "game-register-signup-description" is missing from data file - insert the next line after key-line for "game-register-signup"
+  "game-register-signup-description": "Sign-up for an account",
+ERROR: key "game-register-submit" is missing from data file - insert the next line after key-line for "game-register-signup-description"
+  "game-register-submit": "Sign-up",
+ERROR: key "game-register-title" is missing from data file - insert the next line after key-line for "game-register-submit"
+  "game-register-title": "Account management",
+ERROR: key "game-room-description" is in bad order according to the reference (152,154) - it should be after "game-register-title"
+ERROR: key "game-room-external-description" is missing from data file - insert the next line after key-line for "game-room-description"
+  "game-room-external-description": "<strong>Note</strong>: you're joining as external user. Please make sure the room moderator has allowed this and the moderator is there to approve your request.",
+ERROR: key "game-settings-changes-allowed-description" is in bad order according to the reference (189,194) - it should be after "game-settings-add-comment-title"
+ERROR: key "game-settings-connection-github" is missing from data file - insert the next line after key-line for "game-settings-confluence-page-label"
+  "game-settings-connection-github": "A connection to GitHub has been set up, you can disconnect from here",
+ERROR: key "game-settings-connection-gitlab" is missing from data file - insert the next line after key-line for "game-settings-connection-github"
+  "game-settings-connection-gitlab": "A connection to GitLab has been set up, you can disconnect from here",
+ERROR: key "game-settings-disallow-external-description" is missing from data file - insert the next line after key-line for "game-settings-disable-autostart-title"
+  "game-settings-disallow-external-description": "Do not allow external guests/voters to join through the QR code, invite links or copied room links. Note: if external sessions are allowed, the room moderator has to first accept the join request for any external user.",
+ERROR: key "game-settings-disallow-external-label" is missing from data file - insert the next line after key-line for "game-settings-disallow-external-description"
+  "game-settings-disallow-external-label": "No external voters allowed",
+ERROR: key "game-settings-disallow-external-title" is missing from data file - insert the next line after key-line for "game-settings-disallow-external-label"
+  "game-settings-disallow-external-title": "Disallow external voter",
+ERROR: key "game-settings-integration-github" is in bad order according to the reference (221,223) - it should be after "game-settings-integration-confluence"
+ERROR: key "game-settings-jira-context-only" is missing from data file - insert the next line after key-line for "game-settings-integrations"
+  "game-settings-jira-context-only": "Check this box in case you want to be able to see only tickets that are local to the room's board",
+ERROR: key "game-settings-jira-context-only-label" is missing from data file - insert the next line after key-line for "game-settings-jira-context-only"
+  "game-settings-jira-context-only-label": "Search stories only in the room's board",
+ERROR: key "game-settings-jira-context-only-title" is missing from data file - insert the next line after key-line for "game-settings-jira-context-only-label"
+  "game-settings-jira-context-only-title": "Board local search",
+ERROR: key "game-settings-jira-incoming-url-description" is missing from data file - insert the next line after key-line for "game-settings-jira-help"
+  "game-settings-jira-incoming-url-description": "Web hook for triggering an action inside Jira Automation. This feature is used to send events from Scrumpy Poker to your Jira instance when someone adds a story for estimation, removes it or estimates it. This way the action can trigger an automation that can update multiple fields, change the state, assignee, send e-mails and a lot more.",
+ERROR: key "game-settings-jira-incoming-url-help" is missing from data file - insert the next line after key-line for "game-settings-jira-incoming-url-description"
+  "game-settings-jira-incoming-url-help": "Learn more about this at",
+ERROR: key "game-settings-jira-incoming-url-label" is missing from data file - insert the next line after key-line for "game-settings-jira-incoming-url-help"
+  "game-settings-jira-incoming-url-label": "Incoming Webhook",
+ERROR: key "game-settings-jira-incoming-url-title" is missing from data file - insert the next line after key-line for "game-settings-jira-incoming-url-label"
+  "game-settings-jira-incoming-url-title": "Jira Automation Incoming Web Hook",
+ERROR: key "game-settings-jira-send-web-request-add-or-update-label" is missing from data file - insert the next line after key-line for "game-settings-jira-incoming-url-title"
+  "game-settings-jira-send-web-request-add-or-update-label": "Jira Automation add new or update existing story",
+ERROR: key "game-settings-jira-send-web-request-description" is missing from data file - insert the next line after key-line for "game-settings-jira-send-web-request-add-or-update-label"
+  "game-settings-jira-send-web-request-description": "Sends a web request from the Jira Automation framework when issue is created, assigned or any other condition supported by Jira. This feature is used to send events from your Jira instance to Scrumpy Poker. For example when a new issue is created, it can be automatically set for estimation. Or when the issue is updated (description changed, field changed, etc.) it can send event to Scrumpy Poker to add/remove this issue to a poker session or just refresh the description and fields.",
+ERROR: key "game-settings-jira-send-web-request-help" is missing from data file - insert the next line after key-line for "game-settings-jira-send-web-request-description"
+  "game-settings-jira-send-web-request-help": "You can learn more about Jira Send Web Request at",
+ERROR: key "game-settings-jira-send-web-request-label" is missing from data file - insert the next line after key-line for "game-settings-jira-send-web-request-help"
+  "game-settings-jira-send-web-request-label": "Web Request URL (POST)",
+ERROR: key "game-settings-jira-send-web-request-remove-label" is missing from data file - insert the next line after key-line for "game-settings-jira-send-web-request-label"
+  "game-settings-jira-send-web-request-remove-label": "Jira Automation remove existing story",
+ERROR: key "game-settings-jira-send-web-request-reset-label" is missing from data file - insert the next line after key-line for "game-settings-jira-send-web-request-remove-label"
+  "game-settings-jira-send-web-request-reset-label": "Reset URL",
+ERROR: key "game-settings-jira-send-web-request-title" is missing from data file - insert the next line after key-line for "game-settings-jira-send-web-request-reset-label"
+  "game-settings-jira-send-web-request-title": "Jira Automation Send Web Request",
+ERROR: key "game-settings-jira-url-label" is in bad order according to the reference (233,236) - it should be after "game-settings-jira-url-description"
+ERROR: key "game-settings-persist" is missing from data file - insert the next line after key-line for "game-settings-name-title"
+  "game-settings-persist": "Persistance",
+ERROR: key "game-settings-persist-description" is missing from data file - insert the next line after key-line for "game-settings-persist"
+  "game-settings-persist-description": "You can download the room settings and then restore it at any time or even transfer it to another room. The credentials for integrations are preserved.",
+ERROR: key "game-settings-persist-download" is missing from data file - insert the next line after key-line for "game-settings-persist-description"
+  "game-settings-persist-download": "Download",
+ERROR: key "game-settings-persist-drop-title" is missing from data file - insert the next line after key-line for "game-settings-persist-download"
+  "game-settings-persist-drop-title": "Drop settings file here",
+ERROR: key "game-settings-persist-title" is missing from data file - insert the next line after key-line for "game-settings-persist-drop-title"
+  "game-settings-persist-title": "Persist settings",
+ERROR: key "game-settings-reset-description" is missing from data file - insert the next line after key-line for "game-settings-plugins-label"
+  "game-settings-reset-description": "From here you can reset the room to it's initial state. This will remove all planned stories, existing refinements and restore the settings to their default values. This is useful in case something went wrong with the room settings or you need to clear all information that is stored in this room.",
+ERROR: key "game-settings-reset-label" is missing from data file - insert the next line after key-line for "game-settings-reset-description"
+  "game-settings-reset-label": "Reset room",
+ERROR: key "game-settings-reset-title" is missing from data file - insert the next line after key-line for "game-settings-reset-label"
+  "game-settings-reset-title": "Reset settings",
+ERROR: key "game-settings-room-description-description" is missing from data file - insert the next line after key-line for "game-settings-reset-title"
+  "game-settings-room-description-description": "This is a description of the room that is shown to the participants as a clarification on what stories will be refined, who will participate, etc.",
+ERROR: key "game-settings-room-description-hint" is missing from data file - insert the next line after key-line for "game-settings-room-description-description"
+  "game-settings-room-description-hint": "Team A's planning/refinement sessions",
+ERROR: key "game-settings-room-description-label" is missing from data file - insert the next line after key-line for "game-settings-room-description-hint"
+  "game-settings-room-description-label": "Room description, general text",
+ERROR: key "game-settings-room-description-title" is missing from data file - insert the next line after key-line for "game-settings-room-description-label"
+  "game-settings-room-description-title": "Room description",
+ERROR: key "game-settings-slack-post-added-description" is missing from data file - insert the next line after key-line for "game-settings-security-pin-unset-title"
+  "game-settings-slack-post-added-description": "Post a message on the slack channel when a story is added to the planning session.",
+ERROR: key "game-settings-slack-post-added-label" is missing from data file - insert the next line after key-line for "game-settings-slack-post-added-description"
+  "game-settings-slack-post-added-label": "Post when added",
+ERROR: key "game-settings-slack-post-added-title" is missing from data file - insert the next line after key-line for "game-settings-slack-post-added-label"
+  "game-settings-slack-post-added-title": "Post a message when a story is added",
+ERROR: key "game-settings-slack-post-removed-description" is missing from data file - insert the next line after key-line for "game-settings-slack-post-added-title"
+  "game-settings-slack-post-removed-description": "Post a message on the slack channel when a story is removed from the planning session.",
+ERROR: key "game-settings-slack-post-removed-label" is missing from data file - insert the next line after key-line for "game-settings-slack-post-removed-description"
+  "game-settings-slack-post-removed-label": "Post when removed",
+ERROR: key "game-settings-slack-post-removed-title" is missing from data file - insert the next line after key-line for "game-settings-slack-post-removed-label"
+  "game-settings-slack-post-removed-title": "Post a message when a story is removed",
+ERROR: key "game-settings-style-time-mapping-days-full" is missing from data file - insert the next line after key-line for "game-settings-style-time-mapping-days"
+  "game-settings-style-time-mapping-days-full": "days",
+ERROR: key "game-settings-style-time-mapping-hours-full" is missing from data file - insert the next line after key-line for "game-settings-style-time-mapping-hours"
+  "game-settings-style-time-mapping-hours-full": "hours",
+ERROR: key "game-settings-style-time-mapping-months-full" is missing from data file - insert the next line after key-line for "game-settings-style-time-mapping-months"
+  "game-settings-style-time-mapping-months-full": "months",
+ERROR: key "game-settings-style-time-mapping-weeks-full" is missing from data file - insert the next line after key-line for "game-settings-style-time-mapping-weeks"
+  "game-settings-style-time-mapping-weeks-full": "weeks",
+ERROR: key "game-settings-style-tshirt-estimate-field-description" is missing from data file - insert the next line after key-line for "game-settings-style-title"
+  "game-settings-style-tshirt-estimate-field-description": "A custom estimate field for the T-Shirt sizes in Jira that holds text values like L, XXL. When estimating with T-Shirt sizes insted of updating the story points, this field is set to the T-Shirt size of the story.",
+ERROR: key "game-settings-style-tshirt-estimate-field-label" is missing from data file - insert the next line after key-line for "game-settings-style-tshirt-estimate-field-description"
+  "game-settings-style-tshirt-estimate-field-label": "T-Shirt estimate field name",
+ERROR: key "game-settings-style-tshirt-estimate-field-title" is missing from data file - insert the next line after key-line for "game-settings-style-tshirt-estimate-field-label"
+  "game-settings-style-tshirt-estimate-field-title": "Jira T-Shirt estimate field",
+ERROR: key "game-settings-voting-hide-average-description" is missing from data file - insert the next line after key-line for "game-settings-voting-guest-title"
+  "game-settings-voting-hide-average-description": "Hide the average vote and the ability to override it until the team is in discussion about the results",
+ERROR: key "game-settings-voting-hide-average-title" is missing from data file - insert the next line after key-line for "game-settings-voting-hide-average-description"
+  "game-settings-voting-hide-average-title": "Hide the average vote",
+ERROR: key "game-settings-voting-pre-vote-comment-description" is missing from data file - insert the next line after key-line for "game-settings-voting-no-sounds-title"
+  "game-settings-voting-pre-vote-comment-description": "Require adding a comment when voting asynchronously as the comment will help the moderator understand the reasoning behind the chosen vote",
+ERROR: key "game-settings-voting-pre-vote-comment-title" is missing from data file - insert the next line after key-line for "game-settings-voting-pre-vote-comment-description"
+  "game-settings-voting-pre-vote-comment-title": "Require a comment on asynchronous votes",
+ERROR: key "game-settings-voting-show-estimate-description" is missing from data file - insert the next line after key-line for "game-settings-voting-room-title"
+  "game-settings-voting-show-estimate-description": "When estimated, keep the ticket in the list of stories and show the estimate inside. This way a ticket can be re-estimated multiple times easily. Note: this will expose any existing estimate of the ticket prior to estimation",
+ERROR: key "game-settings-voting-show-estimate-title" is missing from data file - insert the next line after key-line for "game-settings-voting-show-estimate-description"
+  "game-settings-voting-show-estimate-title": "Show estimate and keep ticket",
+ERROR: key "game-settings-voting-story-editing-description" is missing from data file - insert the next line after key-line for "game-settings-voting-show-estimate-title"
+  "game-settings-voting-story-editing-description": "Allow the moderator to edit the story summary and description before and during the refinement session",
+ERROR: key "game-settings-voting-story-editing-title" is missing from data file - insert the next line after key-line for "game-settings-voting-story-editing-description"
+  "game-settings-voting-story-editing-title": "Allow summary and description editing",
+ERROR: key "game-settings-voting-volume-sounds-description" is missing from data file - insert the next line after key-line for "game-settings-voting-time-title"
+  "game-settings-voting-volume-sounds-description": "Increase or decrease the volume of the audio",
+ERROR: key "game-settings-voting-volume-sounds-title" is missing from data file - insert the next line after key-line for "game-settings-voting-volume-sounds-description"
+  "game-settings-voting-volume-sounds-title": "Sounds volume",
+ERROR: key "game-story-arrange-order-ascending" is missing from data file - insert the next line after key-line for "game-story-add-all"
+  "game-story-arrange-order-ascending": "Ascending",
+ERROR: key "game-story-arrange-order-descending" is missing from data file - insert the next line after key-line for "game-story-arrange-order-ascending"
+  "game-story-arrange-order-descending": "Descending",
+ERROR: key "game-story-arrange-order-label" is missing from data file - insert the next line after key-line for "game-story-arrange-order-descending"
+  "game-story-arrange-order-label": "Order",
+ERROR: key "game-story-arrange-sort-label" is missing from data file - insert the next line after key-line for "game-story-arrange-order-label"
+  "game-story-arrange-sort-label": "Sort by",
+ERROR: key "game-story-arrange-sorting-estimate" is missing from data file - insert the next line after key-line for "game-story-arrange-sort-label"
+  "game-story-arrange-sorting-estimate": "Estimate",
+ERROR: key "game-story-arrange-sorting-title" is missing from data file - insert the next line after key-line for "game-story-arrange-sorting-estimate"
+  "game-story-arrange-sorting-title": "Title",
+ERROR: key "game-story-clear-all" is missing from data file - insert the next line after key-line for "game-story-chat-unfold"
+  "game-story-clear-all": "Clear search list",
+ERROR: key "game-story-context-only-status-all" is missing from data file - insert the next line after key-line for "game-story-collaboration-view"
+  "game-story-context-only-status-all": "Searching in all projects. Change search context in Integrations/Jira settings.",
+ERROR: key "game-story-context-only-status-board" is missing from data file - insert the next line after key-line for "game-story-context-only-status-all"
+  "game-story-context-only-status-board": "Searching in the current board only. Change search context in Integrations/Jira settings.",
+ERROR: key "game-story-no-data-description" is missing from data file - insert the next line after key-line for "game-story-no-data"
+  "game-story-no-data-description": "Start typing ticket ID to fill in your list of stories",
+ERROR: key "game-summary-hide-average" is missing from data file - insert the next line after key-line for "game-summary-generate"
+  "game-summary-hide-average": "Hide the average value",
+ERROR: key "game-summary-show-average" is missing from data file - insert the next line after key-line for "game-summary-session-voting-time"
+  "game-summary-show-average": "Show the average value",
+ERROR: key "game-summary-show-average-first" is missing from data file - insert the next line after key-line for "game-summary-show-average"
+  "game-summary-show-average-first": "Please show the average vote first to be able to complete the voting",
+ERROR: key "game-tooltip-add-bottom" is missing from data file - insert the next line after key-line for "game-time-remaining"
+  "game-tooltip-add-bottom": "Add to bottom of refinement",
+ERROR: key "game-tooltip-add-top" is missing from data file - insert the next line after key-line for "game-tooltip-add-to-list"
+  "game-tooltip-add-top": "Add to top of refinement",
+ERROR: key "game-tooltip-board" is missing from data file - insert the next line after key-line for "game-tooltip-add-top"
+  "game-tooltip-board": "Board <strong>{board}</strong>",
+ERROR: key "game-tooltip-estimate-now" is missing from data file - insert the next line after key-line for "game-tooltip-choose-preset"
+  "game-tooltip-estimate-now": "Estimate now",
+ERROR: key "game-tooltip-game-complete-all" is missing from data file - insert the next line after key-line for "game-tooltip-game-complete"
+  "game-tooltip-game-complete-all": "Save in history, update the estimate fields and switch to next story",
+ERROR: key "game-tooltip-history-of-estimates" is missing from data file - insert the next line after key-line for "game-tooltip-game-voting-notification"
+  "game-tooltip-history-of-estimates": "Estimation history",
+ERROR: key "game-tooltip-not-scheduled-for-estimation" is missing from data file - insert the next line after key-line for "game-tooltip-no-storypoints"
+  "game-tooltip-not-scheduled-for-estimation": "Not scheduled for estimation",
+ERROR: key "game-tooltip-project" is missing from data file - insert the next line after key-line for "game-tooltip-options-more"
+  "game-tooltip-project": "Project <strong>{project}</strong>",
+ERROR: key "game-tooltip-qr-generate" is missing from data file - insert the next line after key-line for "game-tooltip-qr"
+  "game-tooltip-qr-generate": "Generate QR code for mobile devices",
+ERROR: key "game-tooltip-qr-hiding-in" is missing from data file - insert the next line after key-line for "game-tooltip-qr-generate"
+  "game-tooltip-qr-hiding-in": "Hiding in {seconds}s",
+ERROR: key "game-tooltip-reset-stories-order" is missing from data file - insert the next line after key-line for "game-tooltip-refinement-more"
+  "game-tooltip-reset-stories-order": "Reset stories order",
+ERROR: key "game-tooltip-save-stories-order" is missing from data file - insert the next line after key-line for "game-tooltip-result-lower"
+  "game-tooltip-save-stories-order": "Apply this order for all participants",
+ERROR: key "game-tooltip-schedule" is missing from data file - insert the next line after key-line for "game-tooltip-save-stories-order"
+  "game-tooltip-schedule": "Schedule now",
+ERROR: key "game-tooltip-schedule-and-estimate" is missing from data file - insert the next line after key-line for "game-tooltip-schedule"
+  "game-tooltip-schedule-and-estimate": "Schedule now and estimate",
+ERROR: key "game-tooltip-scheduled-for-estimation" is missing from data file - insert the next line after key-line for "game-tooltip-schedule-and-estimate"
+  "game-tooltip-scheduled-for-estimation": "Scheduled for estimation",
+ERROR: key "game-tooltip-scheduled-stories" is missing from data file - insert the next line after key-line for "game-tooltip-scheduled-for-estimation"
+  "game-tooltip-scheduled-stories": "Stories scheduled for estimation",
+ERROR: key "game-tooltip-toggle-preset" is missing from data file - insert the next line after key-line for "game-tooltip-toggle-participants"
+  "game-tooltip-toggle-preset": "Toggle preset",
+ERROR: key "game-translate" is missing from data file - insert the next line after key-line for "game-tooltip-voting-timer"
+  "game-translate": "Translate...",
+ERROR: key "game-translate-clear-source" is missing from data file - insert the next line after key-line for "game-translate"
+  "game-translate-clear-source": "Clear translation",
+ERROR: key "game-translate-close" is missing from data file - insert the next line after key-line for "game-translate-clear-source"
+  "game-translate-close": "Close",
+ERROR: key "game-translate-content-source" is missing from data file - insert the next line after key-line for "game-translate-close"
+  "game-translate-content-source": "New translation",
+ERROR: key "game-translate-content-source-link" is missing from data file - insert the next line after key-line for "game-translate-content-source"
+  "game-translate-content-source-link": "Source <strong>{translate}</strong> from pastebin",
+ERROR: key "game-translate-description" is missing from data file - insert the next line after key-line for "game-translate-content-source-link"
+  "game-translate-description": "<strong>For testing purposes only!</strong> You can specify the ID of a <a href='https://pastebin.com' target='_blank'>PASTEBIN</a> content. For example if your raw pastebin URL is <code>https://pastebin.com/raw/V1S2ae8D</code>, the ID is <code>V1S2ae8D</code>. When specified, the last menu entry in the language menu turns into a new language that can be selected. This is useful when you'd like to test the translation file that you're currently working on.",
+ERROR: key "game-translate-label" is missing from data file - insert the next line after key-line for "game-translate-description"
+  "game-translate-label": "Specify pastebin ID",
+ERROR: key "game-translate-select-source" is missing from data file - insert the next line after key-line for "game-translate-label"
+  "game-translate-select-source": "Select new translation",
+ERROR: key "game-translate-title" is missing from data file - insert the next line after key-line for "game-translate-select-source"
+  "game-translate-title": "Specify translation ID",
+ERROR: key "game-upload-invalid-type" is missing from data file - insert the next line after key-line for "game-upload-example"
+  "game-upload-invalid-type": "Settings file must be of .scrumpy extension",
+ERROR: key "game-upload-success" is missing from data file - insert the next line after key-line for "game-upload-invalid-type"
+  "game-upload-success": "Settings have been successfully imported",
+ERROR: key "game-upload-too-big" is missing from data file - insert the next line after key-line for "game-upload-title"
+  "game-upload-too-big": "Uploaded file is too big",
+ERROR: key "game-upload-too-many" is missing from data file - insert the next line after key-line for "game-upload-too-big"
+  "game-upload-too-many": "Too many files uploaded",
+ERROR: key "game-voters-kick" is missing from data file - insert the next line after key-line for "game-voters-jira-no-participants"
+  "game-voters-kick": "Kick out",
+ERROR: key "game-voters-make-guest" is missing from data file - insert the next line after key-line for "game-voters-kick"
+  "game-voters-make-guest": "Make guest",
+ERROR: key "game-voters-make-moderator" is missing from data file - insert the next line after key-line for "game-voters-make-guest"
+  "game-voters-make-moderator": "Make moderator",
+ERROR: key "game-voters-make-regular" is missing from data file - insert the next line after key-line for "game-voters-make-moderator"
+  "game-voters-make-regular": "Allow voting",
+ERROR: key "game-voting-freescale-value" is missing from data file - insert the next line after key-line for "game-voting-freescale-title"
+  "game-voting-freescale-value": "Value",
+ERROR: key "game-voting-selected-room" is missing from data file - insert the next line after key-line for "game-voting-freescale-weeks"
+  "game-voting-selected-room": "Selected room",
+ERROR: key "game-voting-switch-room" is missing from data file - insert the next line after key-line for "game-voting-selected-room"
+  "game-voting-switch-room": "Switch room",
+ERROR: key "game-config-board-rooms" is missing from reference file - you should remove it!
+ERROR: key "game-refinement-slack-description" is missing from reference file - you should remove it!
+ERROR: key "game-settings-api-help" is missing from reference file - you should remove it!
+ERROR: key "game-settings-api-key-description" is missing from reference file - you should remove it!
+ERROR: key "game-settings-api-key-hint" is missing from reference file - you should remove it!
+ERROR: key "game-settings-api-key-title" is missing from reference file - you should remove it!
+ERROR: key "game-settings-integration-developer" is missing from reference file - you should remove it!
+ERROR: key "game-settings-jira-url-http" is missing from reference file - you should remove it!
+ERROR: key "game-settings-jira-url-http-label" is missing from reference file - you should remove it!
+reading file: de_DE_PR7.json
+ERROR: key "app-footer-sla" is missing from data file - insert the next line after key-line for "app-footer-privacy"
+  "app-footer-sla": "SLA",
+ERROR: key "app-footer-status" is missing from data file - insert the next line after key-line for "app-footer-sla"
+  "app-footer-status": "Status",
+ERROR: key "game-board-select-description" is missing from data file - insert the next line after key-line for "game-attachments-file"
+  "game-board-select-description": "There is more than one board that references this story, please select which one to use",
+ERROR: key "game-board-select-select" is missing from data file - insert the next line after key-line for "game-board-select-description"
+  "game-board-select-select": "Select",
+ERROR: key "game-board-switch-description" is missing from data file - insert the next line after key-line for "game-board-select-select"
+  "game-board-switch-description": "Each project or board is mapped to a room. A project with 2 boards makes 3 rooms. You can switch between the different rooms in this project from here.",
+ERROR: key "game-config-coming-soon" is in bad order according to the reference (9,11) - it should be after "game-comments"
+ERROR: key "game-config-micro-poker-disallowed-description" is missing from data file - insert the next line after key-line for "game-config-global-title"
+  "game-config-micro-poker-disallowed-description": "Hide the micro-poker section in the issue details view",
+ERROR: key "game-config-micro-poker-disallowed-label" is missing from data file - insert the next line after key-line for "game-config-micro-poker-disallowed-description"
+  "game-config-micro-poker-disallowed-label": "Disallow Micro Poker",
+ERROR: key "game-config-micro-poker-disallowed-title" is missing from data file - insert the next line after key-line for "game-config-micro-poker-disallowed-label"
+  "game-config-micro-poker-disallowed-title": "Micro poker section",
+ERROR: key "game-config-mini-poker-disallowed-description" is missing from data file - insert the next line after key-line for "game-config-micro-poker-disallowed-title"
+  "game-config-mini-poker-disallowed-description": "Hide the mini-poker section in the issue details view",
+ERROR: key "game-config-mini-poker-disallowed-label" is missing from data file - insert the next line after key-line for "game-config-mini-poker-disallowed-description"
+  "game-config-mini-poker-disallowed-label": "Disallow Mini Poker",
+ERROR: key "game-config-mini-poker-disallowed-title" is missing from data file - insert the next line after key-line for "game-config-mini-poker-disallowed-label"
+  "game-config-mini-poker-disallowed-title": "Mini poker section",
+ERROR: key "game-config-room-board" is missing from data file - insert the next line after key-line for "game-config-project-visibility"
+  "game-config-room-board": "Subordinate board room",
+ERROR: key "game-config-room-empty" is missing from data file - insert the next line after key-line for "game-config-room-board"
+  "game-config-room-empty": "This room has not yet been used and is empty. You can still though set its moderators in advance. No moderator means any Jira user can be moderator.",
+ERROR: key "game-config-room-project" is missing from data file - insert the next line after key-line for "game-config-room-empty"
+  "game-config-room-project": "Main project room",
+ERROR: key "game-config-rooms" is missing from data file - insert the next line after key-line for "game-config-room-project"
+  "game-config-rooms": "Rooms",
+ERROR: key "game-config-search-project" is missing from data file - insert the next line after key-line for "game-config-rooms"
+  "game-config-search-project": "Search project by name",
+ERROR: key "game-config-search-user" is missing from data file - insert the next line after key-line for "game-config-search-project"
+  "game-config-search-user": "Search user by name",
+ERROR: key "game-config-select-user" is missing from data file - insert the next line after key-line for "game-config-select-project"
+  "game-config-select-user": "Search a user by name",
+ERROR: key "game-config-tooltip-active-users" is missing from data file - insert the next line after key-line for "game-config-title"
+  "game-config-tooltip-active-users": "Active users",
+ERROR: key "game-config-tooltip-add-moderator" is missing from data file - insert the next line after key-line for "game-config-tooltip-active-users"
+  "game-config-tooltip-add-moderator": "Add moderator",
+ERROR: key "game-config-tooltip-room-status" is missing from data file - insert the next line after key-line for "game-config-tooltip-add-moderator"
+  "game-config-tooltip-room-status": "Current room status",
+ERROR: key "game-copy-jira-link" is missing from data file - insert the next line after key-line for "game-config-voting-rights"
+  "game-copy-jira-link": "Copy Jira link",
+ERROR: key "game-external-join-request-dialog-accept" is missing from data file - insert the next line after key-line for "game-email-link"
+  "game-external-join-request-dialog-accept": "Accept",
+ERROR: key "game-external-join-request-dialog-decline" is missing from data file - insert the next line after key-line for "game-external-join-request-dialog-accept"
+  "game-external-join-request-dialog-decline": "Decline",
+ERROR: key "game-external-join-request-dialog-description" is missing from data file - insert the next line after key-line for "game-external-join-request-dialog-decline"
+  "game-external-join-request-dialog-description": "An external user is requesting to join the voting session. If this is someone from the team, you can accept the request. If you don't think this is someone who is part of the team, please decline.<br> <strong>Note</strong>: external guests and voters can be completely disabled from the room settings.",
+ERROR: key "game-external-join-request-dialog-external" is missing from data file - insert the next line after key-line for "game-external-join-request-dialog-description"
+  "game-external-join-request-dialog-external": "External user",
+ERROR: key "game-external-join-request-dialog-title" is missing from data file - insert the next line after key-line for "game-external-join-request-dialog-external"
+  "game-external-join-request-dialog-title": "Request to join",
+ERROR: key "game-external-wait-request-dialog-description" is missing from data file - insert the next line after key-line for "game-external-join-request-dialog-title"
+  "game-external-wait-request-dialog-description": "Your join request has been submitted. Please wait the room moderator to accept your request. If the moderator is not in the room you have to wait until the moderator joins and approves your request.",
+ERROR: key "game-external-wait-request-dialog-title" is missing from data file - insert the next line after key-line for "game-external-wait-request-dialog-description"
+  "game-external-wait-request-dialog-title": "Wait for the moderator",
+ERROR: key "game-glance-not-scheduled" is missing from data file - insert the next line after key-line for "game-external-wait-request-dialog-title"
+  "game-glance-not-scheduled": "This story is not yet scheduled by the moderator for estimation. You need to be a room moderator to schedule this story.",
+ERROR: key "game-glance-not-selected" is missing from data file - insert the next line after key-line for "game-glance-not-scheduled"
+  "game-glance-not-selected": "The story is currently not selected for estimation by the moderator.",
+ERROR: key "game-glance-wrong-room" is missing from data file - insert the next line after key-line for "game-glance-not-selected"
+  "game-glance-wrong-room": "If this is not the right room, please switch to the correct one from the switch room button.",
+ERROR: key "game-history-estimated" is missing from data file - insert the next line after key-line for "game-help-pwa"
+  "game-history-estimated": "Estimated at <strong>{time}</strong>",
+ERROR: key "game-moderator-external-message" is missing from data file - insert the next line after key-line for "game-moderator-description"
+  "game-moderator-external-message": "Users external to Jira Cloud cannot be moderators, open Scrumpy Poker from inside a Jira board or project to become a moderator.",
+ERROR: key "game-pre-vote-comment-dialog-cancel" is missing from data file - insert the next line after key-line for "game-open-game"
+  "game-pre-vote-comment-dialog-cancel": "Cancel",
+ERROR: key "game-pre-vote-comment-dialog-description" is missing from data file - insert the next line after key-line for "game-pre-vote-comment-dialog-cancel"
+  "game-pre-vote-comment-dialog-description": "Please provide the reasoning behind the chosen vote",
+ERROR: key "game-pre-vote-comment-dialog-hint" is missing from data file - insert the next line after key-line for "game-pre-vote-comment-dialog-description"
+  "game-pre-vote-comment-dialog-hint": "A free text with the vote reasoning",
+ERROR: key "game-pre-vote-comment-dialog-label" is missing from data file - insert the next line after key-line for "game-pre-vote-comment-dialog-hint"
+  "game-pre-vote-comment-dialog-label": "Comment",
+ERROR: key "game-pre-vote-comment-dialog-ok" is missing from data file - insert the next line after key-line for "game-pre-vote-comment-dialog-label"
+  "game-pre-vote-comment-dialog-ok": "Comment",
+ERROR: key "game-pre-vote-comment-dialog-title" is missing from data file - insert the next line after key-line for "game-pre-vote-comment-dialog-ok"
+  "game-pre-vote-comment-dialog-title": "Comment on vote",
+ERROR: key "game-pre-voters-action" is missing from data file - insert the next line after key-line for "game-pre-vote-comment-dialog-title"
+  "game-pre-voters-action": "Collect votes and complete",
+ERROR: key "game-refinement-forum-description" is missing from data file - insert the next line after key-line for "game-refinement-feature-requests-title"
+  "game-refinement-forum-description": "Join our forums and community",
+ERROR: key "game-refinement-support-description" is missing from data file - insert the next line after key-line for "game-refinement-session"
+  "game-refinement-support-description": "File a support ticket",
+ERROR: key "game-register-name-hint" is missing from data file - insert the next line after key-line for "game-refinement-support-description"
+  "game-register-name-hint": "Your name here",
+ERROR: key "game-register-reset" is missing from data file - insert the next line after key-line for "game-register-name-hint"
+  "game-register-reset": "Reset",
+ERROR: key "game-register-rooms" is missing from data file - insert the next line after key-line for "game-register-reset"
+  "game-register-rooms": "Rooms",
+ERROR: key "game-register-signin" is missing from data file - insert the next line after key-line for "game-register-rooms"
+  "game-register-signin": "Sign-in",
+ERROR: key "game-register-signup" is missing from data file - insert the next line after key-line for "game-register-signin"
+  "game-register-signup": "Sign-up",
+ERROR: key "game-register-signup-description" is missing from data file - insert the next line after key-line for "game-register-signup"
+  "game-register-signup-description": "Sign-up for an account",
+ERROR: key "game-register-submit" is missing from data file - insert the next line after key-line for "game-register-signup-description"
+  "game-register-submit": "Sign-up",
+ERROR: key "game-register-title" is missing from data file - insert the next line after key-line for "game-register-submit"
+  "game-register-title": "Account management",
+ERROR: key "game-room-description" is in bad order according to the reference (152,154) - it should be after "game-register-title"
+ERROR: key "game-room-external-description" is missing from data file - insert the next line after key-line for "game-room-description"
+  "game-room-external-description": "<strong>Note</strong>: you're joining as external user. Please make sure the room moderator has allowed this and the moderator is there to approve your request.",
+ERROR: key "game-settings-changes-allowed-description" is in bad order according to the reference (189,194) - it should be after "game-settings-add-comment-title"
+ERROR: key "game-settings-connection-github" is missing from data file - insert the next line after key-line for "game-settings-confluence-page-label"
+  "game-settings-connection-github": "A connection to GitHub has been set up, you can disconnect from here",
+ERROR: key "game-settings-connection-gitlab" is missing from data file - insert the next line after key-line for "game-settings-connection-github"
+  "game-settings-connection-gitlab": "A connection to GitLab has been set up, you can disconnect from here",
+ERROR: key "game-settings-disallow-external-description" is missing from data file - insert the next line after key-line for "game-settings-disable-autostart-title"
+  "game-settings-disallow-external-description": "Do not allow external guests/voters to join through the QR code, invite links or copied room links. Note: if external sessions are allowed, the room moderator has to first accept the join request for any external user.",
+ERROR: key "game-settings-disallow-external-label" is missing from data file - insert the next line after key-line for "game-settings-disallow-external-description"
+  "game-settings-disallow-external-label": "No external voters allowed",
+ERROR: key "game-settings-disallow-external-title" is missing from data file - insert the next line after key-line for "game-settings-disallow-external-label"
+  "game-settings-disallow-external-title": "Disallow external voter",
+ERROR: key "game-settings-integration-github" is in bad order according to the reference (221,223) - it should be after "game-settings-integration-confluence"
+ERROR: key "game-settings-jira-context-only" is missing from data file - insert the next line after key-line for "game-settings-integrations"
+  "game-settings-jira-context-only": "Check this box in case you want to be able to see only tickets that are local to the room's board",
+ERROR: key "game-settings-jira-context-only-label" is missing from data file - insert the next line after key-line for "game-settings-jira-context-only"
+  "game-settings-jira-context-only-label": "Search stories only in the room's board",
+ERROR: key "game-settings-jira-context-only-title" is missing from data file - insert the next line after key-line for "game-settings-jira-context-only-label"
+  "game-settings-jira-context-only-title": "Board local search",
+ERROR: key "game-settings-jira-incoming-url-description" is missing from data file - insert the next line after key-line for "game-settings-jira-help"
+  "game-settings-jira-incoming-url-description": "Web hook for triggering an action inside Jira Automation. This feature is used to send events from Scrumpy Poker to your Jira instance when someone adds a story for estimation, removes it or estimates it. This way the action can trigger an automation that can update multiple fields, change the state, assignee, send e-mails and a lot more.",
+ERROR: key "game-settings-jira-incoming-url-help" is missing from data file - insert the next line after key-line for "game-settings-jira-incoming-url-description"
+  "game-settings-jira-incoming-url-help": "Learn more about this at",
+ERROR: key "game-settings-jira-incoming-url-label" is missing from data file - insert the next line after key-line for "game-settings-jira-incoming-url-help"
+  "game-settings-jira-incoming-url-label": "Incoming Webhook",
+ERROR: key "game-settings-jira-incoming-url-title" is missing from data file - insert the next line after key-line for "game-settings-jira-incoming-url-label"
+  "game-settings-jira-incoming-url-title": "Jira Automation Incoming Web Hook",
+ERROR: key "game-settings-jira-send-web-request-add-or-update-label" is missing from data file - insert the next line after key-line for "game-settings-jira-incoming-url-title"
+  "game-settings-jira-send-web-request-add-or-update-label": "Jira Automation add new or update existing story",
+ERROR: key "game-settings-jira-send-web-request-description" is missing from data file - insert the next line after key-line for "game-settings-jira-send-web-request-add-or-update-label"
+  "game-settings-jira-send-web-request-description": "Sends a web request from the Jira Automation framework when issue is created, assigned or any other condition supported by Jira. This feature is used to send events from your Jira instance to Scrumpy Poker. For example when a new issue is created, it can be automatically set for estimation. Or when the issue is updated (description changed, field changed, etc.) it can send event to Scrumpy Poker to add/remove this issue to a poker session or just refresh the description and fields.",
+ERROR: key "game-settings-jira-send-web-request-help" is missing from data file - insert the next line after key-line for "game-settings-jira-send-web-request-description"
+  "game-settings-jira-send-web-request-help": "You can learn more about Jira Send Web Request at",
+ERROR: key "game-settings-jira-send-web-request-label" is missing from data file - insert the next line after key-line for "game-settings-jira-send-web-request-help"
+  "game-settings-jira-send-web-request-label": "Web Request URL (POST)",
+ERROR: key "game-settings-jira-send-web-request-remove-label" is missing from data file - insert the next line after key-line for "game-settings-jira-send-web-request-label"
+  "game-settings-jira-send-web-request-remove-label": "Jira Automation remove existing story",
+ERROR: key "game-settings-jira-send-web-request-reset-label" is missing from data file - insert the next line after key-line for "game-settings-jira-send-web-request-remove-label"
+  "game-settings-jira-send-web-request-reset-label": "Reset URL",
+ERROR: key "game-settings-jira-send-web-request-title" is missing from data file - insert the next line after key-line for "game-settings-jira-send-web-request-reset-label"
+  "game-settings-jira-send-web-request-title": "Jira Automation Send Web Request",
+ERROR: key "game-settings-jira-url-label" is in bad order according to the reference (233,236) - it should be after "game-settings-jira-url-description"
+ERROR: key "game-settings-persist" is missing from data file - insert the next line after key-line for "game-settings-name-title"
+  "game-settings-persist": "Persistance",
+ERROR: key "game-settings-persist-description" is missing from data file - insert the next line after key-line for "game-settings-persist"
+  "game-settings-persist-description": "You can download the room settings and then restore it at any time or even transfer it to another room. The credentials for integrations are preserved.",
+ERROR: key "game-settings-persist-download" is missing from data file - insert the next line after key-line for "game-settings-persist-description"
+  "game-settings-persist-download": "Download",
+ERROR: key "game-settings-persist-drop-title" is missing from data file - insert the next line after key-line for "game-settings-persist-download"
+  "game-settings-persist-drop-title": "Drop settings file here",
+ERROR: key "game-settings-persist-title" is missing from data file - insert the next line after key-line for "game-settings-persist-drop-title"
+  "game-settings-persist-title": "Persist settings",
+ERROR: key "game-settings-reset-description" is missing from data file - insert the next line after key-line for "game-settings-plugins-label"
+  "game-settings-reset-description": "From here you can reset the room to it's initial state. This will remove all planned stories, existing refinements and restore the settings to their default values. This is useful in case something went wrong with the room settings or you need to clear all information that is stored in this room.",
+ERROR: key "game-settings-reset-label" is missing from data file - insert the next line after key-line for "game-settings-reset-description"
+  "game-settings-reset-label": "Reset room",
+ERROR: key "game-settings-reset-title" is missing from data file - insert the next line after key-line for "game-settings-reset-label"
+  "game-settings-reset-title": "Reset settings",
+ERROR: key "game-settings-room-description-description" is missing from data file - insert the next line after key-line for "game-settings-reset-title"
+  "game-settings-room-description-description": "This is a description of the room that is shown to the participants as a clarification on what stories will be refined, who will participate, etc.",
+ERROR: key "game-settings-room-description-hint" is missing from data file - insert the next line after key-line for "game-settings-room-description-description"
+  "game-settings-room-description-hint": "Team A's planning/refinement sessions",
+ERROR: key "game-settings-room-description-label" is missing from data file - insert the next line after key-line for "game-settings-room-description-hint"
+  "game-settings-room-description-label": "Room description, general text",
+ERROR: key "game-settings-room-description-title" is missing from data file - insert the next line after key-line for "game-settings-room-description-label"
+  "game-settings-room-description-title": "Room description",
+ERROR: key "game-settings-slack-post-added-description" is missing from data file - insert the next line after key-line for "game-settings-security-pin-unset-title"
+  "game-settings-slack-post-added-description": "Post a message on the slack channel when a story is added to the planning session.",
+ERROR: key "game-settings-slack-post-added-label" is missing from data file - insert the next line after key-line for "game-settings-slack-post-added-description"
+  "game-settings-slack-post-added-label": "Post when added",
+ERROR: key "game-settings-slack-post-added-title" is missing from data file - insert the next line after key-line for "game-settings-slack-post-added-label"
+  "game-settings-slack-post-added-title": "Post a message when a story is added",
+ERROR: key "game-settings-slack-post-removed-description" is missing from data file - insert the next line after key-line for "game-settings-slack-post-added-title"
+  "game-settings-slack-post-removed-description": "Post a message on the slack channel when a story is removed from the planning session.",
+ERROR: key "game-settings-slack-post-removed-label" is missing from data file - insert the next line after key-line for "game-settings-slack-post-removed-description"
+  "game-settings-slack-post-removed-label": "Post when removed",
+ERROR: key "game-settings-slack-post-removed-title" is missing from data file - insert the next line after key-line for "game-settings-slack-post-removed-label"
+  "game-settings-slack-post-removed-title": "Post a message when a story is removed",
+ERROR: key "game-settings-style-time-mapping-days-full" is missing from data file - insert the next line after key-line for "game-settings-style-time-mapping-days"
+  "game-settings-style-time-mapping-days-full": "days",
+ERROR: key "game-settings-style-time-mapping-hours-full" is missing from data file - insert the next line after key-line for "game-settings-style-time-mapping-hours"
+  "game-settings-style-time-mapping-hours-full": "hours",
+ERROR: key "game-settings-style-time-mapping-months-full" is missing from data file - insert the next line after key-line for "game-settings-style-time-mapping-months"
+  "game-settings-style-time-mapping-months-full": "months",
+ERROR: key "game-settings-style-time-mapping-weeks-full" is missing from data file - insert the next line after key-line for "game-settings-style-time-mapping-weeks"
+  "game-settings-style-time-mapping-weeks-full": "weeks",
+ERROR: key "game-settings-style-tshirt-estimate-field-description" is missing from data file - insert the next line after key-line for "game-settings-style-title"
+  "game-settings-style-tshirt-estimate-field-description": "A custom estimate field for the T-Shirt sizes in Jira that holds text values like L, XXL. When estimating with T-Shirt sizes insted of updating the story points, this field is set to the T-Shirt size of the story.",
+ERROR: key "game-settings-style-tshirt-estimate-field-label" is missing from data file - insert the next line after key-line for "game-settings-style-tshirt-estimate-field-description"
+  "game-settings-style-tshirt-estimate-field-label": "T-Shirt estimate field name",
+ERROR: key "game-settings-style-tshirt-estimate-field-title" is missing from data file - insert the next line after key-line for "game-settings-style-tshirt-estimate-field-label"
+  "game-settings-style-tshirt-estimate-field-title": "Jira T-Shirt estimate field",
+ERROR: key "game-settings-voting-hide-average-description" is missing from data file - insert the next line after key-line for "game-settings-voting-guest-title"
+  "game-settings-voting-hide-average-description": "Hide the average vote and the ability to override it until the team is in discussion about the results",
+ERROR: key "game-settings-voting-hide-average-title" is missing from data file - insert the next line after key-line for "game-settings-voting-hide-average-description"
+  "game-settings-voting-hide-average-title": "Hide the average vote",
+ERROR: key "game-settings-voting-pre-vote-comment-description" is missing from data file - insert the next line after key-line for "game-settings-voting-no-sounds-title"
+  "game-settings-voting-pre-vote-comment-description": "Require adding a comment when voting asynchronously as the comment will help the moderator understand the reasoning behind the chosen vote",
+ERROR: key "game-settings-voting-pre-vote-comment-title" is missing from data file - insert the next line after key-line for "game-settings-voting-pre-vote-comment-description"
+  "game-settings-voting-pre-vote-comment-title": "Require a comment on asynchronous votes",
+ERROR: key "game-settings-voting-show-estimate-description" is missing from data file - insert the next line after key-line for "game-settings-voting-room-title"
+  "game-settings-voting-show-estimate-description": "When estimated, keep the ticket in the list of stories and show the estimate inside. This way a ticket can be re-estimated multiple times easily. Note: this will expose any existing estimate of the ticket prior to estimation",
+ERROR: key "game-settings-voting-show-estimate-title" is missing from data file - insert the next line after key-line for "game-settings-voting-show-estimate-description"
+  "game-settings-voting-show-estimate-title": "Show estimate and keep ticket",
+ERROR: key "game-settings-voting-story-editing-description" is missing from data file - insert the next line after key-line for "game-settings-voting-show-estimate-title"
+  "game-settings-voting-story-editing-description": "Allow the moderator to edit the story summary and description before and during the refinement session",
+ERROR: key "game-settings-voting-story-editing-title" is missing from data file - insert the next line after key-line for "game-settings-voting-story-editing-description"
+  "game-settings-voting-story-editing-title": "Allow summary and description editing",
+ERROR: key "game-settings-voting-volume-sounds-description" is missing from data file - insert the next line after key-line for "game-settings-voting-time-title"
+  "game-settings-voting-volume-sounds-description": "Increase or decrease the volume of the audio",
+ERROR: key "game-settings-voting-volume-sounds-title" is missing from data file - insert the next line after key-line for "game-settings-voting-volume-sounds-description"
+  "game-settings-voting-volume-sounds-title": "Sounds volume",
+ERROR: key "game-story-arrange-order-ascending" is missing from data file - insert the next line after key-line for "game-story-add-all"
+  "game-story-arrange-order-ascending": "Ascending",
+ERROR: key "game-story-arrange-order-descending" is missing from data file - insert the next line after key-line for "game-story-arrange-order-ascending"
+  "game-story-arrange-order-descending": "Descending",
+ERROR: key "game-story-arrange-order-label" is missing from data file - insert the next line after key-line for "game-story-arrange-order-descending"
+  "game-story-arrange-order-label": "Order",
+ERROR: key "game-story-arrange-sort-label" is missing from data file - insert the next line after key-line for "game-story-arrange-order-label"
+  "game-story-arrange-sort-label": "Sort by",
+ERROR: key "game-story-arrange-sorting-estimate" is missing from data file - insert the next line after key-line for "game-story-arrange-sort-label"
+  "game-story-arrange-sorting-estimate": "Estimate",
+ERROR: key "game-story-arrange-sorting-title" is missing from data file - insert the next line after key-line for "game-story-arrange-sorting-estimate"
+  "game-story-arrange-sorting-title": "Title",
+ERROR: key "game-story-clear-all" is missing from data file - insert the next line after key-line for "game-story-chat-unfold"
+  "game-story-clear-all": "Clear search list",
+ERROR: key "game-story-context-only-status-all" is missing from data file - insert the next line after key-line for "game-story-collaboration-view"
+  "game-story-context-only-status-all": "Searching in all projects. Change search context in Integrations/Jira settings.",
+ERROR: key "game-story-context-only-status-board" is missing from data file - insert the next line after key-line for "game-story-context-only-status-all"
+  "game-story-context-only-status-board": "Searching in the current board only. Change search context in Integrations/Jira settings.",
+ERROR: key "game-story-no-data-description" is missing from data file - insert the next line after key-line for "game-story-no-data"
+  "game-story-no-data-description": "Start typing ticket ID to fill in your list of stories",
+ERROR: key "game-summary-hide-average" is missing from data file - insert the next line after key-line for "game-summary-generate"
+  "game-summary-hide-average": "Hide the average value",
+ERROR: key "game-summary-show-average" is missing from data file - insert the next line after key-line for "game-summary-session-voting-time"
+  "game-summary-show-average": "Show the average value",
+ERROR: key "game-summary-show-average-first" is missing from data file - insert the next line after key-line for "game-summary-show-average"
+  "game-summary-show-average-first": "Please show the average vote first to be able to complete the voting",
+ERROR: key "game-tooltip-add-bottom" is missing from data file - insert the next line after key-line for "game-time-remaining"
+  "game-tooltip-add-bottom": "Add to bottom of refinement",
+ERROR: key "game-tooltip-add-top" is missing from data file - insert the next line after key-line for "game-tooltip-add-to-list"
+  "game-tooltip-add-top": "Add to top of refinement",
+ERROR: key "game-tooltip-board" is missing from data file - insert the next line after key-line for "game-tooltip-add-top"
+  "game-tooltip-board": "Board <strong>{board}</strong>",
+ERROR: key "game-tooltip-estimate-now" is missing from data file - insert the next line after key-line for "game-tooltip-choose-preset"
+  "game-tooltip-estimate-now": "Estimate now",
+ERROR: key "game-tooltip-game-complete-all" is missing from data file - insert the next line after key-line for "game-tooltip-game-complete"
+  "game-tooltip-game-complete-all": "Save in history, update the estimate fields and switch to next story",
+ERROR: key "game-tooltip-history-of-estimates" is missing from data file - insert the next line after key-line for "game-tooltip-game-voting-notification"
+  "game-tooltip-history-of-estimates": "Estimation history",
+ERROR: key "game-tooltip-not-scheduled-for-estimation" is missing from data file - insert the next line after key-line for "game-tooltip-no-storypoints"
+  "game-tooltip-not-scheduled-for-estimation": "Not scheduled for estimation",
+ERROR: key "game-tooltip-project" is missing from data file - insert the next line after key-line for "game-tooltip-options-more"
+  "game-tooltip-project": "Project <strong>{project}</strong>",
+ERROR: key "game-tooltip-qr-generate" is missing from data file - insert the next line after key-line for "game-tooltip-qr"
+  "game-tooltip-qr-generate": "Generate QR code for mobile devices",
+ERROR: key "game-tooltip-qr-hiding-in" is missing from data file - insert the next line after key-line for "game-tooltip-qr-generate"
+  "game-tooltip-qr-hiding-in": "Hiding in {seconds}s",
+ERROR: key "game-tooltip-reset-stories-order" is missing from data file - insert the next line after key-line for "game-tooltip-refinement-more"
+  "game-tooltip-reset-stories-order": "Reset stories order",
+ERROR: key "game-tooltip-save-stories-order" is missing from data file - insert the next line after key-line for "game-tooltip-result-lower"
+  "game-tooltip-save-stories-order": "Apply this order for all participants",
+ERROR: key "game-tooltip-schedule" is missing from data file - insert the next line after key-line for "game-tooltip-save-stories-order"
+  "game-tooltip-schedule": "Schedule now",
+ERROR: key "game-tooltip-schedule-and-estimate" is missing from data file - insert the next line after key-line for "game-tooltip-schedule"
+  "game-tooltip-schedule-and-estimate": "Schedule now and estimate",
+ERROR: key "game-tooltip-scheduled-for-estimation" is missing from data file - insert the next line after key-line for "game-tooltip-schedule-and-estimate"
+  "game-tooltip-scheduled-for-estimation": "Scheduled for estimation",
+ERROR: key "game-tooltip-scheduled-stories" is missing from data file - insert the next line after key-line for "game-tooltip-scheduled-for-estimation"
+  "game-tooltip-scheduled-stories": "Stories scheduled for estimation",
+ERROR: key "game-tooltip-toggle-preset" is missing from data file - insert the next line after key-line for "game-tooltip-toggle-participants"
+  "game-tooltip-toggle-preset": "Toggle preset",
+ERROR: key "game-translate" is missing from data file - insert the next line after key-line for "game-tooltip-voting-timer"
+  "game-translate": "Translate...",
+ERROR: key "game-translate-clear-source" is missing from data file - insert the next line after key-line for "game-translate"
+  "game-translate-clear-source": "Clear translation",
+ERROR: key "game-translate-close" is missing from data file - insert the next line after key-line for "game-translate-clear-source"
+  "game-translate-close": "Close",
+ERROR: key "game-translate-content-source" is missing from data file - insert the next line after key-line for "game-translate-close"
+  "game-translate-content-source": "New translation",
+ERROR: key "game-translate-content-source-link" is missing from data file - insert the next line after key-line for "game-translate-content-source"
+  "game-translate-content-source-link": "Source <strong>{translate}</strong> from pastebin",
+ERROR: key "game-translate-description" is missing from data file - insert the next line after key-line for "game-translate-content-source-link"
+  "game-translate-description": "<strong>For testing purposes only!</strong> You can specify the ID of a <a href='https://pastebin.com' target='_blank'>PASTEBIN</a> content. For example if your raw pastebin URL is <code>https://pastebin.com/raw/V1S2ae8D</code>, the ID is <code>V1S2ae8D</code>. When specified, the last menu entry in the language menu turns into a new language that can be selected. This is useful when you'd like to test the translation file that you're currently working on.",
+ERROR: key "game-translate-label" is missing from data file - insert the next line after key-line for "game-translate-description"
+  "game-translate-label": "Specify pastebin ID",
+ERROR: key "game-translate-select-source" is missing from data file - insert the next line after key-line for "game-translate-label"
+  "game-translate-select-source": "Select new translation",
+ERROR: key "game-translate-title" is missing from data file - insert the next line after key-line for "game-translate-select-source"
+  "game-translate-title": "Specify translation ID",
+ERROR: key "game-upload-invalid-type" is missing from data file - insert the next line after key-line for "game-upload-example"
+  "game-upload-invalid-type": "Settings file must be of .scrumpy extension",
+ERROR: key "game-upload-success" is missing from data file - insert the next line after key-line for "game-upload-invalid-type"
+  "game-upload-success": "Settings have been successfully imported",
+ERROR: key "game-upload-too-big" is missing from data file - insert the next line after key-line for "game-upload-title"
+  "game-upload-too-big": "Uploaded file is too big",
+ERROR: key "game-upload-too-many" is missing from data file - insert the next line after key-line for "game-upload-too-big"
+  "game-upload-too-many": "Too many files uploaded",
+ERROR: key "game-voters-kick" is missing from data file - insert the next line after key-line for "game-voters-jira-no-participants"
+  "game-voters-kick": "Kick out",
+ERROR: key "game-voters-make-guest" is missing from data file - insert the next line after key-line for "game-voters-kick"
+  "game-voters-make-guest": "Make guest",
+ERROR: key "game-voters-make-moderator" is missing from data file - insert the next line after key-line for "game-voters-make-guest"
+  "game-voters-make-moderator": "Make moderator",
+ERROR: key "game-voters-make-regular" is missing from data file - insert the next line after key-line for "game-voters-make-moderator"
+  "game-voters-make-regular": "Allow voting",
+ERROR: key "game-voting-freescale-value" is missing from data file - insert the next line after key-line for "game-voting-freescale-title"
+  "game-voting-freescale-value": "Value",
+ERROR: key "game-voting-selected-room" is missing from data file - insert the next line after key-line for "game-voting-freescale-weeks"
+  "game-voting-selected-room": "Selected room",
+ERROR: key "game-voting-switch-room" is missing from data file - insert the next line after key-line for "game-voting-selected-room"
+  "game-voting-switch-room": "Switch room",
+ERROR: key "game-config-board-rooms" is missing from reference file - you should remove it!
+ERROR: key "game-refinement-slack-description" is missing from reference file - you should remove it!
+ERROR: key "game-settings-api-help" is missing from reference file - you should remove it!
+ERROR: key "game-settings-api-key-description" is missing from reference file - you should remove it!
+ERROR: key "game-settings-api-key-hint" is missing from reference file - you should remove it!
+ERROR: key "game-settings-api-key-title" is missing from reference file - you should remove it!
+ERROR: key "game-settings-integration-developer" is missing from reference file - you should remove it!
+ERROR: key "game-settings-jira-url-http" is missing from reference file - you should remove it!
+ERROR: key "game-settings-jira-url-http-label" is missing from reference file - you should remove it!
+reading file: es_AR_PR8.json
+ERROR: key "game-copy-jira-link" is missing from data file - insert the next line after key-line for "game-config-voting-rights"
+  "game-copy-jira-link": "Copy Jira link",
+ERROR: key "game-settings-jira-incoming-url-description" is missing from data file - insert the next line after key-line for "game-settings-jira-help"
+  "game-settings-jira-incoming-url-description": "Web hook for triggering an action inside Jira Automation. This feature is used to send events from Scrumpy Poker to your Jira instance when someone adds a story for estimation, removes it or estimates it. This way the action can trigger an automation that can update multiple fields, change the state, assignee, send e-mails and a lot more.",
+ERROR: key "game-settings-jira-incoming-url-help" is missing from data file - insert the next line after key-line for "game-settings-jira-incoming-url-description"
+  "game-settings-jira-incoming-url-help": "Learn more about this at",
+ERROR: key "game-settings-jira-incoming-url-label" is missing from data file - insert the next line after key-line for "game-settings-jira-incoming-url-help"
+  "game-settings-jira-incoming-url-label": "Incoming Webhook",
+ERROR: key "game-settings-jira-incoming-url-title" is missing from data file - insert the next line after key-line for "game-settings-jira-incoming-url-label"
+  "game-settings-jira-incoming-url-title": "Jira Automation Incoming Web Hook",
+ERROR: key "game-settings-jira-send-web-request-add-or-update-label" is missing from data file - insert the next line after key-line for "game-settings-jira-incoming-url-title"
+  "game-settings-jira-send-web-request-add-or-update-label": "Jira Automation add new or update existing story",
+ERROR: key "game-settings-jira-send-web-request-description" is missing from data file - insert the next line after key-line for "game-settings-jira-send-web-request-add-or-update-label"
+  "game-settings-jira-send-web-request-description": "Sends a web request from the Jira Automation framework when issue is created, assigned or any other condition supported by Jira. This feature is used to send events from your Jira instance to Scrumpy Poker. For example when a new issue is created, it can be automatically set for estimation. Or when the issue is updated (description changed, field changed, etc.) it can send event to Scrumpy Poker to add/remove this issue to a poker session or just refresh the description and fields.",
+ERROR: key "game-settings-jira-send-web-request-help" is missing from data file - insert the next line after key-line for "game-settings-jira-send-web-request-description"
+  "game-settings-jira-send-web-request-help": "You can learn more about Jira Send Web Request at",
+ERROR: key "game-settings-jira-send-web-request-label" is missing from data file - insert the next line after key-line for "game-settings-jira-send-web-request-help"
+  "game-settings-jira-send-web-request-label": "Web Request URL (POST)",
+ERROR: key "game-settings-jira-send-web-request-remove-label" is missing from data file - insert the next line after key-line for "game-settings-jira-send-web-request-label"
+  "game-settings-jira-send-web-request-remove-label": "Jira Automation remove existing story",
+ERROR: key "game-settings-jira-send-web-request-reset-label" is missing from data file - insert the next line after key-line for "game-settings-jira-send-web-request-remove-label"
+  "game-settings-jira-send-web-request-reset-label": "Reset URL",
+ERROR: key "game-settings-jira-send-web-request-title" is missing from data file - insert the next line after key-line for "game-settings-jira-send-web-request-reset-label"
+  "game-settings-jira-send-web-request-title": "Jira Automation Send Web Request",
+ERROR: key "game-settings-slack-post-added-description" is missing from data file - insert the next line after key-line for "game-settings-security-pin-unset-title"
+  "game-settings-slack-post-added-description": "Post a message on the slack channel when a story is added to the planning session.",
+ERROR: key "game-settings-slack-post-added-label" is missing from data file - insert the next line after key-line for "game-settings-slack-post-added-description"
+  "game-settings-slack-post-added-label": "Post when added",
+ERROR: key "game-settings-slack-post-added-title" is missing from data file - insert the next line after key-line for "game-settings-slack-post-added-label"
+  "game-settings-slack-post-added-title": "Post a message when a story is added",
+ERROR: key "game-settings-slack-post-removed-description" is missing from data file - insert the next line after key-line for "game-settings-slack-post-added-title"
+  "game-settings-slack-post-removed-description": "Post a message on the slack channel when a story is removed from the planning session.",
+ERROR: key "game-settings-slack-post-removed-label" is missing from data file - insert the next line after key-line for "game-settings-slack-post-removed-description"
+  "game-settings-slack-post-removed-label": "Post when removed",
+ERROR: key "game-settings-slack-post-removed-title" is missing from data file - insert the next line after key-line for "game-settings-slack-post-removed-label"
+  "game-settings-slack-post-removed-title": "Post a message when a story is removed",
+ERROR: key "game-story-arrange-order-ascending" is missing from data file - insert the next line after key-line for "game-story-add-all"
+  "game-story-arrange-order-ascending": "Ascending",
+ERROR: key "game-story-arrange-order-descending" is missing from data file - insert the next line after key-line for "game-story-arrange-order-ascending"
+  "game-story-arrange-order-descending": "Descending",
+ERROR: key "game-story-arrange-order-label" is missing from data file - insert the next line after key-line for "game-story-arrange-order-descending"
+  "game-story-arrange-order-label": "Order",
+ERROR: key "game-story-arrange-sort-label" is missing from data file - insert the next line after key-line for "game-story-arrange-order-label"
+  "game-story-arrange-sort-label": "Sort by",
+ERROR: key "game-story-arrange-sorting-estimate" is missing from data file - insert the next line after key-line for "game-story-arrange-sort-label"
+  "game-story-arrange-sorting-estimate": "Estimate",
+ERROR: key "game-story-arrange-sorting-title" is missing from data file - insert the next line after key-line for "game-story-arrange-sorting-estimate"
+  "game-story-arrange-sorting-title": "Title",
+ERROR: key "game-tooltip-reset-stories-order" is missing from data file - insert the next line after key-line for "game-tooltip-refinement-more"
+  "game-tooltip-reset-stories-order": "Reset stories order",
+ERROR: key "game-tooltip-save-stories-order" is missing from data file - insert the next line after key-line for "game-tooltip-result-lower"
+  "game-tooltip-save-stories-order": "Apply this order for all participants",
+ERROR: key "game-translate-clear-source" is missing from data file - insert the next line after key-line for "game-translate"
+  "game-translate-clear-source": "Clear translation",
+ERROR: key "game-translate-close" is missing from data file - insert the next line after key-line for "game-translate-clear-source"
+  "game-translate-close": "Close",
+ERROR: key "game-translate-content-source" is missing from data file - insert the next line after key-line for "game-translate-close"
+  "game-translate-content-source": "New translation",
+ERROR: key "game-translate-content-source-link" is missing from data file - insert the next line after key-line for "game-translate-content-source"
+  "game-translate-content-source-link": "Source <strong>{translate}</strong> from pastebin",
+ERROR: key "game-translate-description" is missing from data file - insert the next line after key-line for "game-translate-content-source-link"
+  "game-translate-description": "<strong>For testing purposes only!</strong> You can specify the ID of a <a href='https://pastebin.com' target='_blank'>PASTEBIN</a> content. For example if your raw pastebin URL is <code>https://pastebin.com/raw/V1S2ae8D</code>, the ID is <code>V1S2ae8D</code>. When specified, the last menu entry in the language menu turns into a new language that can be selected. This is useful when you'd like to test the translation file that you're currently working on.",
+ERROR: key "game-translate-label" is missing from data file - insert the next line after key-line for "game-translate-description"
+  "game-translate-label": "Specify pastebin ID",
+ERROR: key "game-translate-select-source" is missing from data file - insert the next line after key-line for "game-translate-label"
+  "game-translate-select-source": "Select new translation",
+ERROR: key "game-translate-title" is missing from data file - insert the next line after key-line for "game-translate-select-source"
+  "game-translate-title": "Specify translation ID",
+ERROR: key "game-voting-freescale-value" is missing from data file - insert the next line after key-line for "game-voting-freescale-title"
+  "game-voting-freescale-value": "Value",
+done.
